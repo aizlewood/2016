@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -9,14 +9,21 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
-  <?php echo css('assets/css/main.css') ?>
+  <?php echo css('assets/css/all.css') ?>
+  
+<?php foreach($page->files()->filterBy('extension', 'css') as $css): ?>
+  <?php echo css($css->url()) ?>
+<?php endforeach ?>
+
+<?php foreach($page->files()->filterBy('extension', 'js') as $js): ?>
+  <?php echo js($js->url()) ?>
+<?php endforeach ?>
 
 </head>
 <body>
 
   <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url() ?>">
-      <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-    </a>
+  
     <?php snippet('menu') ?>
+
   </header>

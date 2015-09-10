@@ -1,0 +1,53 @@
+.author {
+	float: left;
+	width: 100%;
+    color: #bbb;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-family: $font-sans-condensed;
+    font-weight: 400;
+}
+
+.author a {
+	color: #111;
+}
+
+.author a:hover {
+	color: #000;
+}
+
+.tags {
+	margin: 5% 0;
+	float: left;
+	text-align: left;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: $font-sans-condensed;
+	font-size: 0.9em;
+	color: #999;
+    font-weight: 400;	
+}
+
+.tags a {
+	font-family: $font-sans-condensed;	
+	color: #333;
+	margin: 0 0.5%;
+    font-weight: 400;	
+}
+
+@media all and (min-width: 50em) {
+
+	.author {
+		float: left;
+		width: 50%;
+		max-width: 50%;
+	}
+
+	.tags {
+		margin: 0;
+		float: right;
+		text-align: right;
+		width: 50%;
+		max-width: 50%;
+	}	
+}	

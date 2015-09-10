@@ -1,0 +1,152 @@
+	.infoz {
+		margin-left: 0em;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.tidbit {
+		margin-left: 0.5em;
+		width: 80%;
+		float: left;
+		text-align: center;
+		padding: 0.3em 1em;
+		border-bottom: 1px solid rgba(255,255,255,0.08);
+		font-family: $font-serif-bold;		
+		font-weight: 900;
+		font-style: italic;
+		color: #fff;
+		font-size: 2em;		
+	}
+
+	.tidbit:hover {
+		cursor: pointer;
+		border-bottom: 1px solid rgba(255,255,255,0.9);
+		transition: border 1s ease;
+		  -webkit-animation-duration: 1s;
+		  animation-duration: 1s;
+		  -webkit-animation-delay: 0.3s;
+		  animation-delay: 0.3s;		  
+		  -webkit-animation-iteration-count: 1;
+		  animation-iteration-count: 1;
+		  -webkit-animation-fill-mode: both;
+		  animation-fill-mode: both;
+		  -webkit-animation-name: pulse;
+		  animation-name: pulse;  
+	}	
+
+	.abril {
+		font-family: $font-serif-extrabold;
+		font-weight: 400;
+		font-style: normal;
+	}	
+
+	.tidbit span {
+		font-family: $font-sans-condensed;
+		letter-spacing: 1px;
+		opacity: 0.5;
+		font-size: 10%;
+		display: block;
+		font-style: normal;
+	}	
+
+	h1.about {
+		padding: 4% 13%;
+		margin-top: 0.6em;
+	}	
+
+
+@media all and (min-width: 40em) {
+	.infoz {
+		margin-left: 0em;
+		width: 100%;
+		overflow: hidden;		
+	}
+
+	.tidbit {
+		width: 37%;
+		font-size: 2em;		
+	}
+
+	.tidbit span {
+		font-size: 10%;
+	}	
+
+	h1.about {
+		color: #fff; 
+		padding: 2% 9%;
+		margin-top: 0.6em;
+	}	
+
+}
+
+
+@media all and (min-width: 55em) {
+
+	.infoz {
+		margin-left: 5em;
+		width: 70%;
+		overflow: inherit;
+	}
+
+	.tidbit {		
+		width: 43%;
+		font-size: 8em;		
+	}
+
+	.tidbit span {
+		font-size: 10%;
+	}
+
+/*	.coffee {
+		background: url(../img/coffee.svg) no-repeat 35% 50%;
+	}*/
+
+	h1.about {
+		padding: 4% 13%;
+		margin-top: 0.6em;
+	}
+
+}
+
+@media all and (min-width: 90em) {
+
+	.infoz {
+		margin-left: 12em;
+		width: 70%;
+		overflow: inherit;
+	}
+}	
+
+	@-webkit-keyframes pulse {
+	  0% {
+	    -webkit-transform: scale3d(1, 1, 1);
+	    transform: scale3d(1, 1, 1);
+	  }
+
+	  50% {
+	    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+	    transform: scale3d(1.05, 1.05, 1.05);
+	  }
+
+	  100% {
+	    -webkit-transform: scale3d(1, 1, 1);
+	    transform: scale3d(1, 1, 1);
+	  }
+	}
+
+	@keyframes pulse {
+	  0% {
+	    -webkit-transform: scale3d(1, 1, 1);
+	    transform: scale3d(1, 1, 1);
+	  }
+
+	  50% {
+	    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+	    transform: scale3d(1.05, 1.05, 1.05);
+	  }
+
+	  100% {
+	    -webkit-transform: scale3d(1, 1, 1);
+	    transform: scale3d(1, 1, 1);
+	  }
+	}

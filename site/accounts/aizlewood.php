@@ -6,3 +6,5 @@ password: >
   $2a$10$IUz5ek.b58ARnpHZfKkH4eYf/5W/6FEUo50IlqQZNquvKSuQkcGPu
 language: en
 role: admin
+history:
+  - articles/Doing-the-SDW-100

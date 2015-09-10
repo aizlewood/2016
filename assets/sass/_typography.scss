@@ -1,0 +1,248 @@
+/*
+div { font-family:"Pembroke Italic", 'Avenir Next', 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif; font-weight:normal; font-style:italic; }
+div { font-family:"Pembroke Extra Bold", 'Avenir Next', 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif; font-weight:800; font-style:normal; }
+div { font-family:"Pembroke Bold", 'Avenir Next', 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif; font-weight:bold; font-style:normal; }
+div { font-family:"Pembroke Light", 'Avenir Next', 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif; font-weight:200; font-style:normal; }
+div { font-family:"Pembroke Regular", 'Avenir Next', 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif; font-weight:normal; font-style:normal; }
+div { font-family:"Ingeborg Regular", "Hoefler Text", Georgia, serif; font-weight:normal; font-style:normal; }
+div { font-family:"Ingeborg Italic", "Hoefler Text", Georgia, serif; font-size-adjust:0.47; font-weight:normal; font-style:italic; }
+div { font-family:"TabletGothicCondensedSemibold", 'Avenir Next Condensed', 'Arial Narrow', Corbel, Arial, Roboto, sans-serif; font-weight:600; font-style:normal; }
+*/
+
+// $font-serif-bold: "Ingeborg Regular", "Hoefler Text", Georgia, serif; 
+// $font-serif-regular: "Ingeborg Regular", "Hoefler Text", Georgia, serif;
+// $font-serif-emphasis: "Ingeborg Italic", "Hoefler Text", Georgia, serif;
+// $font-sans-bold: "Pembroke Bold", 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif;
+// $font-sans-regular: "Pembroke Regular", 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif;
+// $font-sans-emphasis: "Pembroke Italic", 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif;
+// $font-sans-gothic: "TabletGothicCondensedSemibold", 'Avenir Next Condensed', 'Arial Narrow', Corbel, Arial, Roboto, sans-serif;
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface:400);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700,400italic);
+
+$font-serif-bold: "Playfair Display", serif; 
+$font-serif-extrabold: "Abril Fatface", serif; 
+$font-serif-regular: "Playfair Display", serif;
+$font-serif-emphasis: "Playfair Display", serif;
+$font-sans-bold: "Alegreya Sans", sans-serif;
+$font-sans-regular: "Alegreya Sans", sans-serif;
+$font-sans-emphasis: "Alegreya Sans", sans-serif;
+$font-sans-condensed: "Oswald", sans-serif;
+
+$color: #0F182F;
+$color-dark: #111;
+$color-twilight: rgba(15,24,47,1);
+$color-bluebg: #0F182F;
+$nav-color: #ffffff;
+
+body {
+	color: $color;
+}
+
+h1, h2, h3, h4, h5 {
+	line-height: 100%; 
+	font-family: $font-serif-bold;
+	font-weight:900; 
+	font-style:normal;	
+	letter-spacing: -0.025em;
+	color: $color-bluebg;
+}
+
+h1.alpha { font-size: 5em; margin-bottom: 0;}
+h1 {font-size: 4em}
+h2 {font-size: 2em}
+h3 {font-size: 1.8em}
+h4 {font-size: 1.4em}
+h5 {font-size: 1.2em; text-transform: uppercase;}
+
+@media all and (min-width: 40em) {
+	h1.alpha { font-size: 9em; margin-bottom: 0;}
+	h1 {font-size: 6em}
+	h2 {font-size: 3em}
+	h3 {font-size: 1.8em}
+	h4 {font-size: 1.4em}
+	h5 {font-size: 1.2em; text-transform: uppercase;}
+}
+
+
+p, li {
+	font-family: $font-sans-regular;
+	font-weight: 400;
+	@include font-size(9);
+	@include line-height(11);
+}
+
+.blog .post p:first-of-type {
+	font-family: $font-sans-bold;
+	font-weight: 700;
+	font-style:normal;
+	font-size: 1.3em;
+	line-height: 1.2;
+	color: $color-dark;
+}
+
+@media all and (min-width: 40em) {
+	p, li {
+		font-family: $font-sans-regular;
+		font-weight: 400;
+		@include font-size(12);
+		@include line-height(11);
+	}
+
+	.blog .post p:first-of-type {
+		font-size: 1.6em;
+		line-height: 1.4;
+	}	
+}
+
+
+
+p {
+	margin-bottom: 5%;
+}
+
+p b, 
+p strong {
+	font-family: $font-sans-bold;
+	font-weight: 700;
+}
+
+p em,
+p i {
+	font-family: $font-sans-regular;
+	font-style: italic;
+}
+
+figcaption {
+	text-transform: uppercase;
+	font-size: 0.7em;
+	letter-spacing: 2px;
+	opacity: 0.5;
+	text-align: right;
+	color: rgba(255,255,255,0.8);
+}
+
+blockquote  {
+	padding: 5% 0 2% 0;
+	margin: 4%;
+	position: relative;
+	left: -10%;
+	border-top: 1px solid rgba(255,255,255,0.3);
+	border-bottom: 1px solid rgba(255,255,255,0.3);	
+}
+
+blockquote p {
+	line-height: 1.5;
+	font-family: $font-serif-regular;	
+	font-weight: 400;	
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	opacity: 0.7;
+}
+
+blockquote p cite {
+	line-height: 1.5;
+	padding-top: 5%;
+	font-size: 80%;
+	display: block;
+}
+
+body {
+	-moz-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
+	-moz-font-feature-settings:"liga=1, dlig=1, hlig=1, clig=1"; 
+	-ms-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
+	-o-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
+	-webkit-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
+	font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+}
+
+
+a:link {
+	text-decoration: none;
+	padding: 0 2px;
+	color: #000;
+	// border-bottom: 1px solid rgba(235,32,104,0.5);
+	transition: background 0.2s ease;
+}
+
+article a {
+	text-decoration: none;
+	padding: 0 2px;
+	color: #000;
+	// border-bottom: 1px solid rgba(235,32,104,0.5);
+	transition: background 0.2s ease;
+	border-bottom: 1px solid #c41c58;
+/*	text-shadow: 0.03em 0 #f8f7f8, -0.03em 0 #f8f7f8, 0 0.03em #f8f7f8, 0 -0.03em #f8f7f8, 0.06em 0 #f8f7f8, -0.06em 0 #f8f7f8, 0.09em 0 #f8f7f8, -0.09em 0 #f8f7f8, 0.12em 0 #f8f7f8, -0.12em 0 #f8f7f8, 0.15em 0 #f8f7f8, -0.15em 0 #f8f7f8;*/
+}
+
+a:visited {
+	color: #000;	
+}
+
+a:hover {
+	// background: #FFF8D2;
+	color: #c41c58;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;	
+}
+
+p.thoughts {
+	color: #111;
+}
+
+
+.submenu ul {
+	border-top: 1px solid #ddd;
+	margin-top: 5%;
+	padding-top: 5%;
+	padding-left: 0px;
+}
+
+.submenu ul li {
+	font-size: 1.8em;
+	padding: 0;
+	margin: 2% 0 3% 0;
+	font-family: $font-sans-regular;
+}
+
+.submenu ul li a {
+	text-decoration: none;
+}
+
+.submenu time {
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #ccc;
+	font-size: 14px;
+	line-height: 1;
+}
+
+ul.work {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ul.work li {
+	list-style: none;
+}
+
+pre {
+	background: #efefef;
+	padding: 3% 4%;
+	border: 1px solid #ddd;
+	overflow: hidden;
+}
+
+code {
+	font-size: 0.8em;
+}
+
+dl {
+	font-family: $font-sans-bold;
+}
+
+small {
+	font-family: $font-sans-bold;
+}

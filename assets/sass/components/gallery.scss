@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+
+ul.gallery {
+	overflow: hidden;
+	margin: 0 0 2em 0;
+	padding: 0;
+	width: 100%;
+}
+
+ul.gallery li {
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+	width: 49.9%;
+	float: left;
+	list-style-type: none;
+}
+
+ul.gallery li img {
+	width: auto;
+	height: auto;
+}
+
+
+@media all and (min-width: 40em) {
+	ul.gallery {
+		overflow: hidden;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 5%;
+	}
+
+	ul.gallery li {
+		line-height: 0;
+		margin: 0;
+		padding: 0;
+		width: 25.1%;
+		float: none;
+		display: inline-block;
+		list-style-type: none;
+	}
+
+	ul.gallery li img {
+		width: auto;
+		height: auto;
+	}	
+}	

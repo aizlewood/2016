@@ -1,0 +1,86 @@
+.social-linkage {
+	text-align: center;
+	width: 100%;
+}
+
+.social-linkage ul {
+	width: 85%;
+	margin: 0;
+	padding: 0;
+}
+
+.social-linkage ul li {
+	list-style-type: none;
+	margin: 0.5em;
+	float: none;
+	width: 100%;	
+}
+
+.social-linkage ul li a {
+	padding: 0.5em 1.5em;
+	display: block;
+	width: 100%;
+	font-family: $font-sans-regular;	
+	text-transform: uppercase;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	@include border-radius(5px);
+	text-align: center;
+}
+
+.social-linkage ul li a.flickr {
+	border: 2px solid #0063dc;
+	color: #0063dc;
+}
+.social-linkage ul li a.flickr:hover {
+	background: #0063dc;
+	color: #fff;	
+}
+.social-linkage ul li a.dribbble {
+	border: 2px solid #ea4c89;
+	color: #ea4c89;	
+}
+.social-linkage ul li a.dribbble:hover {
+	background: #ea4c89;
+	color: #fff;	
+}
+.social-linkage ul li a.strava {
+	border: 2px solid #fc4c02;
+	color: #fc4c02;	
+}
+.social-linkage ul li a.strava:hover {
+	background: #fc4c02;
+	color: #fff;	
+}
+.social-linkage ul li a.twitter {
+	border: 2px solid #55acee;
+	color: #55acee;	
+}
+.social-linkage ul li a.twitter:hover {
+	background: #55acee;
+	color: #fff;	
+}
+.social-linkage ul li a.email {
+	border: 2px solid #fff;
+	color: #fff;
+}
+.social-linkage ul li a.email:hover {
+	background: #fff;
+	color: #000;	
+}
+.social-linkage ul li a.delicious {
+	border: 2px solid #3399ff;
+	color: #3399ff;	
+}
+.social-linkage ul li a.delicious:hover {
+	background: #3399ff;
+	color: #fff;	
+}
+.social-linkage ul li a.linkedin {
+	border: 2px solid #0976b4;
+	color: #0976b4;	
+}
+.social-linkage ul li a.linkedin:hover {
+	background: #0976b4;
+	color: #fff;	
+}
