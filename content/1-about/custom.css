@@ -1,5 +1,5 @@
 body  {
-    background: rgba(15,24,47,1); 
+    background: #7ae2e2; 
 }
 
 
@@ -11,26 +11,26 @@ h5,
 p,
 ul,
 li {
-	color: #fff;
+	color: #172631;
 }
 
 a:link {
-	color: #fff;
+	color: #172631;
 }
 
 a:visited {
-	color: #fff;
+	color: #172631;
 }
 
 a:hover {
-	color: #fff;
+	color: #172631;
 }
 
 a:active {
-	color: #fff;
+	color: #172631;
 }
 
 p.callout {
 	background: #fff;
-	color: #000;
+	color: #172631;
 }

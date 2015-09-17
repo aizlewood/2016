@@ -1,15 +1,10 @@
 .row {
 	text-align: left;
-	width: 90%;
-	max-width: 90%;
 	margin: 0 auto;
 }
 
 .row--full {
-	text-align: left;
-	font-size: 0.8em;
-	width: 100%;
-	max-width: 100%;
+	text-align: center;
 	margin: 0 auto;
 }
 
@@ -46,17 +41,15 @@
 
 @media all and (min-width: 40em) {
 	.row {
-		text-align: left;
-		width: 70%;
-		max-width: 50em;
+		padding: 0 25%;
 		margin: 0 auto;
 	}
 
 	.row--full {
-		text-align: left;
-		font-size: 0.8em;
-		max-width: 100%;
-		margin: 0 auto;
+		padding: 3% 25%;
+	}
+
+	.row--full img {
 	}
 }
 

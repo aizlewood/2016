@@ -2,26 +2,7 @@ Title: NBC Puma
 
 ----
 
-snippet: Making intranets sexy
-
-----
-
-Hero: (image: hero.png class: normal-size)
-
-----
-
-lede: 
-
-NBC Universal's PumaTV (Portal for Marketing Assets) is an internal platform created to enable better distribution of creative assets and other digital content to NBCU's worldwide clients.  
-
-Having worked with NBC on a number of projects in the past, NBC came to Clearleft looking to fully redesign their intranet from the ground up, thereby offering a better experience to NBCU clients by making it easier to locate assets and titles through faceted search, as well as improving the overall design of the existing platform. 
-
-----
-
-text:
-
-(image: mountains.jpg caption: Weird took this image in the park)
-
+Text: 
 
 ### The challenge
 When there are little to no brand guidelines in place, full redesigns are often more challenging than first expected.  With no constraints in place ranging from colour palette to typography, it often means that the redesign quickly resembles a digital-first rebrand.  
@@ -55,3 +36,19 @@ I created the style guide in 4 sections:
 
 ### Outcomes
 In retrospect, creating static styleguides isn't an ideal deliverable - it's time consuming, prone to error, and is something much better delivered as native HTML and CSS.  However as NBCU's project will be desktop-only, the style guide's size was considerably less.
+
+----
+
+Year: 
+
+----
+
+Lede: Making intranets sexy
+
+----
+
+Hero: http://jonaizlewood.elf/content/4-projects/2-nbc-puma/hero.png
+
+----
+
+Website: 

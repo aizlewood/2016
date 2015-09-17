@@ -58,7 +58,8 @@ header a:hover {
 		bottom: 0;
 		width: 7rem;
 		max-width: 7rem;
-		border-right: 1px solid #ccc;		
+		// border-right: 1px solid #ccc;
+		background: #172631;		
 	}
 
 	header h1 a {
@@ -80,8 +81,8 @@ header a:hover {
 		position: fixed;
 		top: 0;
 		bottom: 0;
-		width: 12%;
-		max-width: 12%;
-		border-right: 1px solid #ccc;		
+		width: 9%;
+		max-width: 9%;
+		// border-right: 1px solid #ccc;		
 	}	
 }	

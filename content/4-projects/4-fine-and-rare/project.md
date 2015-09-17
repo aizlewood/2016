@@ -2,14 +2,6 @@ Title: Fine + Rare
 
 ----
 
-Snippet: Designing for Ultra High Net Worth individuals
-
-----
-
-Hero: (image: hero.png class: normal-size)
-
-----
-
 Text: 
 
 What are UHNW's? Ultra High Net Worth individuals.  Founded in 1994, FINE+RARE has grown into one of Europe’s largest fine wine merchants. Having started with just three men, an idea and a small office in West London, their offices in London and Hong Kong now hold more than 60 staff, speaking thirteen different languages, selling wine to all corners of the globe.
@@ -24,7 +16,10 @@ FRW had just completed a rebranding effort to better align themselves with their
 
 Armed with stakeholder research, brand assets, value propositions and workshop outcomes derived from the client with the aid of James Box (the UX Lead on the project) I began to create a visual language based on our learnings.  Starting as an element collage I rapidly explored various ideas, elements, styles and approaches before presenting to the client for feedback and next steps. 
 
-The design manifested itself as a premium, semi-luxury brand. This approach was founded on previous brand research findings as well as Clearleft's own stakeholder interviews.  We also applied a design persona to the process. This approach - conceived by Aaron Walter of MailChimp - helps stakeholders better understand their brand and its position as seen by customers and internal staff alike.  By viewing the exploratory work through this lens, the stakeholders were better able to see how the brand should manifest itself as a website.
+<div class="row" style="background: red">
+<p>The design manifested itself as a premium, semi-luxury brand. This approach was founded on previous brand research findings as well as Clearleft's own stakeholder interviews.  We also applied a design persona to the process. This approach - conceived by Aaron Walter of MailChimp - helps stakeholders better understand their brand and its position as seen by customers and internal staff alike.  By viewing the exploratory work through this lens, the stakeholders were better able to see how the brand should manifest itself as a website.
+</p>
+</div>
 
 (image: device-skew.png class: normal-size)
 
@@ -37,3 +32,19 @@ As the visual language matured, we started to move into page-level designs, alwa
 Unfortunately, not all projects turn out as you expect them to.  After a change in heart regarding the brand direction and subsequent design work, FRW chose to pivot the design back to the style and tone conveyed through their previous branding effort.  Thankfully most of the UX, interaction design and front-end development work made it into production, but this version of the visual design did not.  
 
 With that said, I'm extremely proud of this work and hope that it may - one day - set the tone for FRW's new brand direction.
+
+----
+
+Year: 
+
+----
+
+Lede: Designing for UHNW's
+
+----
+
+Hero: http://jonaizlewood.elf/content/4-projects/4-fine-and-rare/hero.png
+
+----
+
+Website: 

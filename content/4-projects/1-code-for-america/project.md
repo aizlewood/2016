@@ -2,29 +2,7 @@ Title: Code for America
 
 ----
 
-Hero: (image: hero.png class: normal-size)
-
-----
-
-snippet: Designing for America, from Brighton UK
-
-----
-
-lede: 
-
-## Creating a lean, mean styleguide machine
-
-Code for America is a new kind of public service - a non-profit organisation formed in 2009 that looks to bridge the gap between the public and private sectors in their effective use of technology and design. Its Board of Directors boasts such names as [Tim O'Reilly](http://en.wikipedia.org/wiki/O%27Reilly_Media), [Eric Ries](http://en.wikipedia.org/wiki/Lean_Startup) and [Jennifer Pahlka](http://en.wikipedia.org/wiki/Jennifer_Pahlka).
-
-> The New York Times described Code for America as “a new nonprofit project... which aims to import the efficiency of the Web into government infrastructures” and “[tries] to make working in government fun and creative.”
-
-In 2011, CFA coders developed an "Adopt a Hydrant" website, so that volunteers in Boston can sign up to shovel out fire hydrants after storms. The system has also been implemented in Providence, Rhode Island, Anchorage, Alaska, and Chicago. Honolulu has created a similar website, "Adopt-A-Siren", for its tsunami sirens.
-
-
-
-----
-
-text:
+Text: 
 
 ## The challenge
 With local governments and 'Brigades' spread across the entire continental USA, Code for America needed a way of delivering a modular design language and code base that anyone of varying technical and design expertise could integrate into their site or digital product.  
@@ -54,6 +32,20 @@ The speed at which this project took place made it an entertaining, fast-paced a
 > <cite>-- Michal Migurski, CTO</cite>
 
 
-Finally, perhaps surprisingly the geographic differences (San Francisco and Brighton) actually helped matters.  Every day throughout the project we had a 'stand up' - 9:30am SF time, 5:30pm Brighton time.  This continuity helped ensure everyone knew what was being done and when, and anything that required CfA's input meant they had an entire work day to consider it. 
+Finally, perhaps surprisingly the geographic differences (San Francisco and Brighton) actually helped matters.  Every day throughout the project we had a 'stand up' - 9:30am SF time, 5:30pm Brighton time.  This continuity helped ensure everyone knew what was being done and when, and anything that required CfA's input meant they had an entire work day to consider it.
 
+----
 
+Year: 
+
+----
+
+Website: 
+
+----
+
+Lede: This is the intro to CfA
+
+----
+
+Hero: http://jonaizlewood.elf/content/4-projects/1-code-for-america/hero.png

@@ -19,16 +19,20 @@ nav.sidebar ul li  {
 nav.sidebar ul li a {
 	// display: inline-block;
 	line-height: 1.8;
-	color: #333;
+	// color: #333;
+	color: #fff;	
 }
 
 nav.sidebar ul li a.active {
-	color: #000;
-	border-bottom: 1px solid #000;	
+	// color: #000;
+	color: #fff;	
+	// border-bottom: 1px solid #000;	
+	border-bottom: 1px solid #999;	
 }	
 
 nav.sidebar ul li a:hover {
-	color: #000;
+	// color: #000;
+	color: #999;	
 	// border-bottom: 2px solid #EB2068;
 }
 

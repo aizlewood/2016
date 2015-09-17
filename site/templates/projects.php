@@ -16,7 +16,7 @@
 
 		<?php else : ?>
 
-	    <?php if($image = $project->images()->sortBy('sort', 'asc')->get('Artboard.jpg')): ?>
+	    <?php if($image = $project->images()->sortBy('sort', 'asc')->get('artboard.jpg')): ?>
 	    <div class="intro hub" style="background-image:url('<?php echo $image->url() ?>')">
 
 	    <?php endif ?>

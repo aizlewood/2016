@@ -2,22 +2,6 @@ Title: The Holiday Place
 
 ----
 
-Snippet: Making luxury holidays responsive
-
-----
-
-Hero: (image: hero.png class: normal-size)
-
-----
-
-lede: 
-
-The Holiday Place are proud to be one of Europe's top Independent travel companies, working across Arabia, the Americas, the Caribbean, Africa, and the Indian Ocean. They make it as easy as possible for customers to choose and book their holiday options to suit their needs and their budget, including tours, all inclusive holidays, activities, truly tailor-made holidays, multi-destination adventures and honeymoons.
-
-The Holiday Place came to Clearleft looking to redesign their offering from the ground up in order to improve their customers perception of their online brand. They  wanted to better surface their range of products and services through a better user experience and ultimately increase opportunities from their website for their sales team.
-
-
-----
 Text: 
 
 ### The challenges
@@ -46,3 +30,10 @@ The Holiday Place project(s) were highly rewarding, working with a great interna
 
 By providing a digital-first brand we also handed over a full brand guideline package, including the crucial does and don'ts, palette, typography and image-specific guidelines to ensure the Holiday Place were provisioned with a toolkit with which they could use, re-use and build upon for years to come.
 
+----
+
+Year: 
+
+----
+
+Tags: 

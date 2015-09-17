@@ -10,28 +10,17 @@
 		float: left;
 		text-align: center;
 		padding: 0.3em 1em;
-		border-bottom: 1px solid rgba(255,255,255,0.08);
+		border-bottom: 1px solid rgba(55,55,55,0.08);
 		font-family: $font-serif-bold;		
 		font-weight: 900;
 		font-style: italic;
-		color: #fff;
 		font-size: 2em;		
 	}
 
 	.tidbit:hover {
 		cursor: pointer;
-		border-bottom: 1px solid rgba(255,255,255,0.9);
+		border-bottom: 1px solid rgba(55,55,55,0.9);
 		transition: border 1s ease;
-		  -webkit-animation-duration: 1s;
-		  animation-duration: 1s;
-		  -webkit-animation-delay: 0.3s;
-		  animation-delay: 0.3s;		  
-		  -webkit-animation-iteration-count: 1;
-		  animation-iteration-count: 1;
-		  -webkit-animation-fill-mode: both;
-		  animation-fill-mode: both;
-		  -webkit-animation-name: pulse;
-		  animation-name: pulse;  
 	}	
 
 	.abril {
@@ -72,7 +61,6 @@
 	}	
 
 	h1.about {
-		color: #fff; 
 		padding: 2% 9%;
 		margin-top: 0.6em;
 	}	

@@ -21,14 +21,15 @@ div { font-family:"TabletGothicCondensedSemibold", 'Avenir Next Condensed', 'Ari
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface:400);
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic);
 
 $font-serif-bold: "Playfair Display", serif; 
 $font-serif-extrabold: "Abril Fatface", serif; 
 $font-serif-regular: "Playfair Display", serif;
 $font-serif-emphasis: "Playfair Display", serif;
-$font-sans-bold: "Alegreya Sans", sans-serif;
-$font-sans-regular: "Alegreya Sans", sans-serif;
-$font-sans-emphasis: "Alegreya Sans", sans-serif;
+$font-sans-bold: "Quattrocento Sans", sans-serif;
+$font-sans-regular: "Quattrocento Sans", sans-serif;
+$font-sans-emphasis: "Quattrocento Sans", sans-serif;
 $font-sans-condensed: "Oswald", sans-serif;
 
 $color: #0F182F;
@@ -41,9 +42,18 @@ body {
 	color: $color;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
 	line-height: 100%; 
 	font-family: $font-serif-bold;
+	font-weight:900; 
+	font-style:normal;	
+	letter-spacing: -0.025em;
+	color: $color-bluebg;
+}
+
+h2, h3, h4, h5 {
+	line-height: 100%; 
+	font-family: $font-sans-bold;
 	font-weight:900; 
 	font-style:normal;	
 	letter-spacing: -0.025em;
@@ -74,8 +84,15 @@ p, li {
 	@include line-height(11);
 }
 
+p.lede {
+	font-family: $font-sans-condensed;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 1em;
+}
+
 .blog .post p:first-of-type {
-	font-family: $font-sans-bold;
+	font-family: $font-sans-condensed;
 	font-weight: 700;
 	font-style:normal;
 	font-size: 1.3em;
@@ -87,8 +104,8 @@ p, li {
 	p, li {
 		font-family: $font-sans-regular;
 		font-weight: 400;
-		@include font-size(12);
-		@include line-height(11);
+		@include font-size(10);
+		@include line-height(12);
 	}
 
 	.blog .post p:first-of-type {
@@ -96,7 +113,6 @@ p, li {
 		line-height: 1.4;
 	}	
 }
-
 
 
 p {
@@ -135,10 +151,8 @@ blockquote  {
 
 blockquote p {
 	line-height: 1.5;
-	font-family: $font-serif-regular;	
-	font-weight: 400;	
+	font-family: $font-sans-condensed;	
 	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
-	opacity: 0.7;
 }
 
 blockquote p cite {
@@ -148,14 +162,14 @@ blockquote p cite {
 	display: block;
 }
 
-body {
-	-moz-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
-	-moz-font-feature-settings:"liga=1, dlig=1, hlig=1, clig=1"; 
-	-ms-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
-	-o-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
-	-webkit-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
-	font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
-}
+// body {
+// 	-moz-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
+// 	-moz-font-feature-settings:"liga=1, dlig=1, hlig=1, clig=1"; 
+// 	-ms-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
+// 	-o-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
+// 	-webkit-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
+// 	font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+// }
 
 
 a:link {

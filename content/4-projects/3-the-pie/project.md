@@ -2,38 +2,17 @@ Title: The PIE News
 
 ----
 
-Snippet: A network of resources for International Education
+Hero: http://jonaizlewood.elf/content/4-projects/3-the-pie/hero.png
 
 ----
 
-Hero: (image: hero.png class: normal-size)
+Lede: Creating a network for International Education
 
 ----
-lede: 
 
-##Creating a network for International Education
-
-<div class="alert"><strong>Attention:</strong> This project is currently being redesigned.</div>
-
-The PIE News (Professionals in International Education) is a growing network of sites servicing the International Education industry.  The PIE is read and used by a wide cross-section of people working in all areas of the international education sector - in HE, FE, language, independent and international schools, education agencies, government organisations and other service providers – from business owners, directors, senior managers, sales and marketing staff, and student counsellors, to academic managers, registrars and accommodation officers. The PIE News readership includes a large number of senior level decision makers and thought leaders.
-
-----
-Hero: (image: http://lorempixel.com/1600/900/animals)
-
-----
 Text: 
 
-The PIE Network is continually growing, and currently contains: 
-
-* The PIE News - a business news forum
-* The PIE Jobs - an international education jobs board
-* The PIE Plus - business introductions for international education professionals
-* The PIE Review - an international education printed magazine
-* The PIE Talent - executive search specialists in international education
-* The PIE Weekly - weekly newsletter to over 12,000 subscribers
-
-----
-Text: This is the project process &amp; background. 
+This is the project process & background. 
 
 (image: http://lorempixel.com/1600/400/abstract)
 
@@ -74,3 +53,11 @@ Since the launch of the PIE News and Jobs sites, the PIE Network has grown - wit
 * It has readers in 225 countries reached so far
 * Its weekly newsletter lands in the inbox of 12,300+ opt-in subscribers
 * Amy Baker, Managing Director and Co-Founder, won the 2014 IEAA Award for Excellence in Professional Commentary
+
+----
+
+Year: 
+
+----
+
+Website: 

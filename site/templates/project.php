@@ -15,20 +15,18 @@
 
           <?php foreach(page('projects')->children()->visible()->limit(1) as $project): ?>
               <h1 class="animated fadeIn"><?php echo $page->title()->html() ?></h1>
-              <p><?php echo html($page->snippet()) ?></p>
+              <p class="lede"><?php echo $page->lede()->html() ?></p>
           <?php endforeach ?>      
 
         </div>
 
       <article>
 
-        <figure class="hero animated fadeIn">
-          <?php echo $page->hero()->kirbytext() ?>
-        </figure>
+      <figure class="hero animated fadeIn">
+        <img src="<?php echo $page->hero()->html() ?>">
 
-        <div class="row lede">
-          <?php echo $page->lede()->kirbytext() ?>
-        </div>
+      </figure>
+
 
     <?php
     $images = array();
@@ -54,6 +52,17 @@
         <div class="row">
           <?php echo $page->text()->kirbytext() ?>
         </div>
+
+          <?php foreach($page->children() as $subpage): ?>
+
+            <div class="row--full" style="background-color:<?php echo $subpage->rowcolour()?>;">
+
+              <h2 style="color:<?php echo $subpage->textcolour()?>;"><?php echo html($subpage->title()) ?></h2>
+              <p style="color:<?php echo $subpage->textcolour()?>;"><?php echo html($subpage->text()) ?></p>
+              <img src="<?php echo html($subpage->imagery()) ?>">
+
+            </div>        
+          <?php endforeach ?>        
     
 
     <div class="segue">

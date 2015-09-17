@@ -18,6 +18,12 @@ li {
 	color: #fff;
 }
 
+
+
+.row.white p {
+	color: #000;
+}
+
 a:link {
 	color: #999;
 }
