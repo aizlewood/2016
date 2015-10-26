@@ -4568,13 +4568,6 @@ ul.teaser li .title {
     width: 100%; }
  }
 
-@media all and (min-width: 70em) {
-  ul.teaser li {
-    float: left;
-    height: auto;
-    width: 50%; }
- }
-
 .title {
   padding-top: 10%; }
 
