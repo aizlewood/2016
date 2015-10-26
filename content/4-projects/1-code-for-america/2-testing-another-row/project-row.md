@@ -14,4 +14,4 @@ Text: This is another row
 
 ----
 
-Imagery: http://jonaizlewood.elf/content/4-projects/1-code-for-america/artboard.jpg
+Imagery: 

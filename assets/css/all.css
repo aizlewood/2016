@@ -4551,13 +4551,29 @@ ul.teaser li {
   position: relative;
   margin: 0;
   padding: 0;
-  line-height: 0; }
+  line-height: 0;
+  float: none;
+  width: 100%; }
 
 ul.teaser li .title {
   position: absolute;
   width: 100%;
   display: block;
   text-align: center; }
+
+@media all and (min-width: 50em) {
+  ul.teaser li {
+    float: none;
+    height: 100%;
+    width: 100%; }
+ }
+
+@media all and (min-width: 70em) {
+  ul.teaser li {
+    float: left;
+    height: auto;
+    width: 50%; }
+ }
 
 .title {
   padding-top: 10%; }

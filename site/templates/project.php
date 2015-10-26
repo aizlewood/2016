@@ -59,7 +59,9 @@
 
               <h2 style="color:<?php echo $subpage->textcolour()?>;"><?php echo html($subpage->title()) ?></h2>
               <p style="color:<?php echo $subpage->textcolour()?>;"><?php echo html($subpage->text()) ?></p>
-              <img src="<?php echo html($subpage->imagery()) ?>">
+                  <?php if($subpage->imagery() != ''): ?>
+                    <img src="<?php echo html($subpage->imagery()) ?>">
+                  <?php endif ?>
 
             </div>        
           <?php endforeach ?>        

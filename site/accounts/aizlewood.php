@@ -7,10 +7,11 @@ password: >
 language: en
 role: admin
 history:
+  - >
+    articles/style-guide-podcast-with-jeremy-keith
+  - >
+    projects/code-for-america/testing-another-row
   - projects/code-for-america/testing-again
   - >
     projects/code-for-america/and-yet-another-row
-  - >
-    projects/code-for-america/testing-another-row
-  - projects/code-for-america/testing-row
   - projects/fine-and-rare

@@ -1,9 +1,9 @@
 body  {
-    background: #cf1b41;
+    background: #fff;
 }
 
 .projects article  {
-    background: #cf1b41;
+    background: #fff;
 }
 
 
@@ -15,7 +15,7 @@ h5,
 p,
 ul,
 li {
-	color: #fff;
+	color: #333;
 }
 
 
@@ -29,7 +29,7 @@ a:link {
 }
 
 a:visited {
-	color: #fff;
+	color: #333;
 }
 
 a:hover {
@@ -37,10 +37,10 @@ a:hover {
 }
 
 a:active {
-	color: #fff;
+	color: #333;
 }
 
 p.callout {
-	background: #fff;
+	background: #333;
 	color: #000;
 }

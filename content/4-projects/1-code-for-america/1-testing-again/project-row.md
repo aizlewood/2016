@@ -6,7 +6,7 @@ Text: Occupy Intelligentsia direct trade pork belly, Blue Bottle wayfarers beard
 
 ----
 
-Rowcolour: #444
+Rowcolour: #cf1b41
 
 ----
 
@@ -14,4 +14,4 @@ Textcolour: #fff
 
 ----
 
-Imagery: http://jonaizlewood.elf/content/4-projects/1-code-for-america/iPad-air.png
+Imagery: 
