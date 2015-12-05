@@ -35,14 +35,13 @@
   
 
   .main { 
-    max-width: 90%;
-    font-size: 100%;
-    margin-left: 7rem;  
+    max-width: 100%;
+    margin-left: 20%;  
     padding: 0;   
   }   
 
   .main .intro {
-    padding: 5% 10% 10% 10%;
+    padding: 10% 10% 10% 10%;
   }
 
   .main .inner {
@@ -51,7 +50,6 @@
   
   .main.home {
     max-width: 100%;
-    margin-left: 7rem;
   }
 
 }
@@ -61,20 +59,17 @@
 @media all and (min-width: 85em) {
 
   .main { 
-    max-width: 90%;
     font-size: 100%;
-    margin-left: 9%; 
     padding: 0;   
   }   
 
   .main .intro {
-    padding: 5% 10% 10% 10%;
+    padding: 11% 10% 10% 10%;
   }
 
 
   .main.home {
     max-width: 100%;
-    margin-left: 9%;
   }
 
   .main { 

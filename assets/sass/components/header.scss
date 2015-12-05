@@ -1,15 +1,26 @@
 header {
+	// -webkit-animation: pulse 120s infinite alternate;	
 	display: block;	
 	float: none;
 	height: 4rem;
-	background: $nav-color url(../img/bg.png);	
-	border-bottom: 1px solid #ccc;
+	background: $brand-blue;
 	z-index: 999;
 	position: relative;
 	position: fixed;
 	top: 0;
 	width: 100%;
+      -webkit-transform:translateZ(1px);
+      -moz-transform:translateZ(1px);
+      -o-transform:translateZ(1px);
+      transform:translateZ(1px)	
 }
+
+/*Animation Prefs*/
+@-webkit-keyframes pulse {
+      0% {background-color: $brand-blue;}
+     100% {background-color: $brand-fuchsia;}
+}
+
 
 header a:link,
 header a:hover {
@@ -22,8 +33,6 @@ header a:hover {
 		display: block;	
 		float: none;
 		height: 4rem;
-		background: $nav-color url(../img/bg.png);	
-		border-bottom: 1px solid #ccc;
 		z-index: 999;
 		position: relative;
 		width: 100%;
@@ -33,33 +42,20 @@ header a:hover {
 @media all and (min-width: 25em) {
 	header {
 		padding: 0em 0em;	
-		height: 5rem;
-		background: $nav-color url(../img/bg.png);		
+		height: 5rem;	
 	}
 }
-
-@media all and (min-width: 40em) {
-
-	header {
-		padding: 0em 0em;	
-		height: 5rem;
-	}
-}	
-
 @media all and (min-width: 50em) {
 
 	header {
-		display: block;
 		width: auto;
-		padding-top: 0;
+		padding-top: 7%;
+		height: 100vh;		
 		height: 100%;
 		position: fixed;
 		top: 0;
 		bottom: 0;
-		width: 7rem;
-		max-width: 7rem;
-		// border-right: 1px solid #ccc;
-		background: #172631;		
+		width: 20%;	
 	}
 
 	header h1 a {
@@ -75,14 +71,12 @@ header a:hover {
 @media all and (min-width: 85em) {
 	header {
 		display: block;
-		width: auto;
-		padding-top: 0;
+		padding-top: 6%;
 		height: 100%;
+		height: 100vh;		
 		position: fixed;
 		top: 0;
-		bottom: 0;
-		width: 9%;
-		max-width: 9%;
-		// border-right: 1px solid #ccc;		
+		bottom: 0;	
+
 	}	
 }	

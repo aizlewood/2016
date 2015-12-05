@@ -1,0 +1,57 @@
+	.single {
+		background: $light;
+		margin-bottom: $space-triple;
+	}
+
+	.single .proposition {
+		margin-top: 10vh;
+		margin-left: 5vw;
+		width: 100vw;
+	}
+
+	.single h1 {
+		padding: 0 0 $space-double 0;
+		margin: 0;
+		border-bottom: 0;
+		font-size: 15vw;
+	}
+
+	.single p {
+		padding: $space-double 0 0 0;
+		margin: 0;
+	}
+
+	.project-detail figure img {
+		box-shadow: rgba(0,0,0,0.2) 0 0px 50px;
+	}
+
+	.project-detail figure.no-shadow img {
+		box-shadow: rgba(0,0,0,0.2) 0 0px 0px;
+	}	
+
+	.strip {
+		height: 5px;
+	}
+
+@media all and (min-width: 40em) {
+
+	.single .proposition {
+		height: 50vh;
+		margin-top: 20vh;
+		margin-left: 0;
+		width: 50vw;
+	}
+
+	.single h1 {
+		padding: 0 0 $space-half 0;		
+		font-size: 7vw;
+	}
+
+	.single .explanation {
+		font-size: 0.8em;
+	}
+
+	.project-detail img {
+		box-shadow: rgba(0,0,0,0.2) 0 0px 50px;
+	}
+}

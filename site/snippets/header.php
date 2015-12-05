@@ -8,6 +8,7 @@
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
+  <link rel="webmention" href="<?php echo url('webmention') ?>">
 
   <?php echo css('assets/css/all.css') ?>
   
@@ -25,5 +26,10 @@
   <header class="header cf" role="banner">
   
     <?php snippet('menu') ?>
-
+  
   </header>
+
+
+<?php if( ($page->template() == "project") || ($page->template() == "article")): ?>
+    <?php snippet('nextprev') ?>
+<?php endif ?>

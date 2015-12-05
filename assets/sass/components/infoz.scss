@@ -1,27 +1,20 @@
 	.infoz {
-		margin-left: 0em;
-		width: 100%;
-		overflow: hidden;
+		clear: both;
+		overflow: auto;
 	}
 
 	.tidbit {
-		margin-left: 0.5em;
-		width: 80%;
+		margin-left: 0em;
+		width: 79%;
 		float: left;
-		text-align: center;
+		text-align: left;
 		padding: 0.3em 1em;
 		border-bottom: 1px solid rgba(55,55,55,0.08);
 		font-family: $font-serif-bold;		
 		font-weight: 900;
-		font-style: italic;
-		font-size: 2em;		
+		font-size: 2em;
+		color: $brand-blue;
 	}
-
-	.tidbit:hover {
-		cursor: pointer;
-		border-bottom: 1px solid rgba(55,55,55,0.9);
-		transition: border 1s ease;
-	}	
 
 	.abril {
 		font-family: $font-serif-extrabold;
@@ -31,36 +24,29 @@
 
 	.tidbit span {
 		font-family: $font-sans-condensed;
+		text-transform: uppercase;
 		letter-spacing: 1px;
-		opacity: 0.5;
-		font-size: 10%;
+		color: $brand-blue;
+		font-size: 15px;
 		display: block;
 		font-style: normal;
+		font-weight: normal;
 	}	
 
-	h1.about {
-		padding: 4% 13%;
+	.about {
+		padding: 4% 8%;
 		margin-top: 0.6em;
 	}	
 
 
-@media all and (min-width: 40em) {
-	.infoz {
-		margin-left: 0em;
-		width: 100%;
-		overflow: hidden;		
-	}
+@media all and (min-width: 25em) {
 
 	.tidbit {
-		width: 37%;
+		width: 34%;
 		font-size: 2em;		
 	}
 
-	.tidbit span {
-		font-size: 10%;
-	}	
-
-	h1.about {
+	h2.about {
 		padding: 2% 9%;
 		margin-top: 0.6em;
 	}	
@@ -68,73 +54,30 @@
 }
 
 
-@media all and (min-width: 55em) {
-
-	.infoz {
-		margin-left: 5em;
-		width: 70%;
-		overflow: inherit;
-	}
+@media all and (min-width: 45em) {
 
 	.tidbit {		
-		width: 43%;
-		font-size: 8em;		
+		width: 29.5%;
+		font-size: 8em;	
+		font-size: 8vw;	
 	}
 
-	.tidbit span {
-		font-size: 10%;
-	}
-
-/*	.coffee {
-		background: url(../img/coffee.svg) no-repeat 35% 50%;
-	}*/
-
-	h1.about {
+	h2.about {
 		padding: 4% 13%;
-		margin-top: 0.6em;
+		margin-top: 18%;
 	}
 
 }
 
-@media all and (min-width: 90em) {
+@media all and (min-width: 55em) {
 
 	.infoz {
-		margin-left: 12em;
-		width: 70%;
-		overflow: inherit;
+		margin-top: 4%;
 	}
-}	
-
-	@-webkit-keyframes pulse {
-	  0% {
-	    -webkit-transform: scale3d(1, 1, 1);
-	    transform: scale3d(1, 1, 1);
-	  }
-
-	  50% {
-	    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-	    transform: scale3d(1.05, 1.05, 1.05);
-	  }
-
-	  100% {
-	    -webkit-transform: scale3d(1, 1, 1);
-	    transform: scale3d(1, 1, 1);
-	  }
+	.tidbit {		
+		width: 80%;
+		font-size: 8em;	
+		font-size: 8vw;	
 	}
 
-	@keyframes pulse {
-	  0% {
-	    -webkit-transform: scale3d(1, 1, 1);
-	    transform: scale3d(1, 1, 1);
-	  }
-
-	  50% {
-	    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-	    transform: scale3d(1.05, 1.05, 1.05);
-	  }
-
-	  100% {
-	    -webkit-transform: scale3d(1, 1, 1);
-	    transform: scale3d(1, 1, 1);
-	  }
-	}
+}

@@ -6,8 +6,7 @@
   display: block;
   list-style: none;
   text-align: right;
-  background: $nav-color url(../img/bg.png);
-  border-bottom: 1px solid #ccc;    
+  border-bottom: 1px solid #EB2068;    
 }
 
 .nav-collapse li {
@@ -32,6 +31,7 @@
 
 .nav-collapse.opened {
   max-height: 9999px;
+  background: $brand-blue;
 }
 
 .nav-toggle {
@@ -57,7 +57,7 @@
   text-decoration: line-through;
 }
 
-@media screen and (min-width: 25em) {
+@media screen and (min-width: 26em) {
   .js .nav-collapse {
     position: relative;
   }
@@ -72,7 +72,6 @@
   }
 
   .nav-collapse ul {
-    background: #172631;
     border-bottom: 0px solid #ccc;    
   }
 }

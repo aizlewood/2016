@@ -1,0 +1,32 @@
+.project-meta {
+	float: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	min-height: auto;
+}
+
+.project-meta ul {
+	padding: 0;
+}
+
+@media all and (min-width: 60em) {
+	.project-meta {
+		width: 33.33%;
+		border: none;
+		border-left: 1px solid $brand-fuchsia;
+		float: right;
+		margin: 8% $space $space $space-double;
+		padding: $space;
+		min-height: 100px;
+	}
+
+	.project-meta ul {
+		margin: $space;
+		padding: $space;
+	}
+
+	.project-meta ul li {
+		list-style-type: none;
+	}
+}

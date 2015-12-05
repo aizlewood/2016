@@ -13,9 +13,6 @@
 
     <?php endif ?>
 
-
-  
-
           <h1 class="alpha"><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h1>
           <p><em><?php echo $project->snippet()->html() ?></em></p>
           <p><a class="cta" href="<?php echo $project->url() ?>">read&nbsp;the&nbsp;case&nbsp;study→</a></p>

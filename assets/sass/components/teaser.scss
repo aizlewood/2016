@@ -2,15 +2,16 @@ ul.teaser  {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	background-attachment: fixed;	
 }
 
 ul.teaser li {
 	position: relative;
+	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	line-height: 0;
 	float: none;
-	width: 100%;
+	border-bottom: 1px solid $light-grey;
 }
 
 ul.teaser li .title {
@@ -20,18 +21,22 @@ ul.teaser li .title {
 	text-align: center;
 }
 
-@media all and (min-width: 50em) {
-	ul.teaser li {
-		float: none;
-		height: 100%;
-		width: 100%;
-	}
-}	
+ul.teaser .categories li {
+	padding: 1% 0;
+	border-bottom: 0;
+	font-size: 0.65em;
+	color: $dark-grey;	
+}
 
-// @media all and (min-width: 70em) {
-// 	ul.teaser li {
-// 		float: left;
-// 		height: auto;
-// 		width: 50%;
-// 	}
-// }	
+@media all and (min-width: 30em) {
+
+	ul.teaser {
+			
+		background-attachment: fixed;		
+	}
+
+	ul.teaser li {
+		float: none;		
+	}
+
+}

@@ -1,12 +1,12 @@
-title: SEO. Am I taking crazy pills?
+Title: SEO. Am I taking crazy pills?
 
 ----
 
-date: 2011-09-09 11:10
+Date: 2011-09-09
 
 ----
 
-text: 
+Text: 
 
 I'm currently attending the <a title="#BrightonSEO" href="http://www.brightonseo.com">Brighton SEO conference</a> at the Corn Exchange. Huge turnout, and clearly this industry continues to thrive. 
 
@@ -20,7 +20,9 @@ Content is and always will be king. I'm not naive enough to think that Google ar
 So back at the BrightonSEO conference, the first talk was about Google's recent algorithmic update, codenamed 'Panda'. Based on the tweets, this was a highly anticipated presentation, seeing as Panda clearly affects the work that the SEOs in this room do for themselves or for their clients.
 
 During the presentation, the speaker gave a telling anecdote:
-<blockquote><del datetime="2011-09-20T10:23:23+00:00">Some of our clients' sites have</del> <ins datetime="2011-09-20T10:23:23+00:00">Our main site has</ins> still not recovered from Panda, 4 months later.</blockquote>
+
+> <del datetime="2011-09-20T10:23:23+00:00">Some of our clients' sites have</del> <ins datetime="2011-09-20T10:23:23+00:00">Our main site has</ins> still not recovered from Panda, 4 months later.
+
 I'll get back to that in a second. First, some tidbits from the speaker of things to do in light of the recent Panda update:
 <ul>
 	<li>don't duplicate content</li>
@@ -28,7 +30,7 @@ I'll get back to that in a second. First, some tidbits from the speaker of thing
 	<li>write better content</li>
 	<li>block weak content</li>
 </ul>
-Am I taking crazy pills? Isn't all of the above just common sense to cater to the user &gt; customer &gt; conversion process? The utter nerve Google have that they updated their worldwide search algorithm - used by millions every second of every day - to 'weed out' all of the crap content out there on the web! Who the hell do they think they are?
+Am I taking crazy pills? Isn't all of the above just common sense to cater to the user > customer > conversion process? The utter nerve Google have that they updated their worldwide search algorithm - used by millions every second of every day - to 'weed out' all of the crap content out there on the web! Who the hell do they think they are?
 
 <del datetime="2011-09-20T10:23:23+00:00">As for that quote above... doesn't the fact the speaker's clients site(s) were still affected by Panda directly implicate them as an agency that doesn't provide the necessary best practices, guidelines and quality content that Google and other search engines want to see?</del>
 
@@ -48,8 +50,8 @@ I'm understanding SEO less and less. As my clients will attest, I never recommen
 
 ----
 
-tags: google,SEO,Social Media
+Tags: google,SEO,Social Media
 
 ----
 
-categories: google,SEO,Social Media
+Author: aizlewood

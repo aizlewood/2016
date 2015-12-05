@@ -1,17 +1,18 @@
-title: Laying out a test post
-----
-
-date: 2013-08-28 23:17
+Title: Laying out a test post
 
 ----
 
-text: 
+Date: 2013-08-28
+
+----
+
+Text: 
 
 (image: unsplash1.jpg)
 
-Lorem ipsum **dolor** sit amet, _consectetur_ adipiscing elit. Curabitur a ante vel velit laoreet luctus. (link: http://wikipedia.org text: Curabitur) sollicitudin lectus ultrices libero feugiat ullamcorper. Phasellus eu arcu nec libero volutpat bibendum at sed tellus. Quisque id sagittis sapien. Aenean ligula augue, feugiat quis egestas a, pretium sit amet dui. Cras nunc risus, porta eu lobortis et, sollicitudin ut urna. Nam interdum lacus vel urna tempor vitae tincidunt lectus convallis. Cras sit amet eros ante, nec bibendum dolor. Donec et mauris mi, sit amet pharetra est.
+This is first of type. Lorem ipsum **dolor** sit amet, _consectetur_ adipiscing elit. Curabitur a ante vel velit laoreet luctus. (link: http://wikipedia.org text: Curabitur) sollicitudin lectus ultrices libero feugiat ullamcorper. Phasellus eu arcu nec libero volutpat bibendum at sed tellus. Quisque id sagittis sapien. Aenean ligula augue, feugiat quis egestas a, pretium sit amet dui. Cras nunc risus, porta eu lobortis et, sollicitudin ut urna. Nam interdum lacus vel urna tempor vitae tincidunt lectus convallis. Cras sit amet eros ante, nec bibendum dolor. Donec et mauris mi, sit amet pharetra est.
 
->Lorssssem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a ante vel velit laoreet luctus. Curabitur sollicitudin lectus ultrices libero feugiat ullamcorper. Phasellus eu arcu nec libero volutpat bibendum at sed tellus. Quisque id sagittis sapien. Aenean ligula augue, feugiat quis egestas a, pretium sit amet dui.
+>A blockquote lorssssem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a ante vel velit laoreet luctus. Curabitur sollicitudin lectus ultrices libero feugiat ullamcorper. Phasellus eu arcu nec libero volutpat bibendum at sed tellus. Quisque id sagittis sapien. Aenean ligula augue, feugiat quis egestas a, pretium sit amet dui.
 
 1. First ordered list item
 2. Another item
@@ -20,7 +21,7 @@ Lorem ipsum **dolor** sit amet, _consectetur_ adipiscing elit. Curabitur a ante 
 ⋅⋅1. Ordered sub-list
 4. And another item.
 
-Nulla feugiat, sem sed viverra rhoncus, ligula nibh commodo lorem, mollis rutrum arcu risus vel nisi. Ut accumsan tincidunt lorem in feugiat. Vestibulum non ullamcorper diam. Nam tincidunt accumsan nibh, a auctor arcu pulvinar sit amet. Mauris id justo mauris, ut eleifend nulla. Aenean fringilla tempor mauris, bibendum vehicula lectus euismod sed. Donec eu malesuada enim. Sed sit amet massa eget erat ullamcorper vestibulum ut at odio. 
+Basic paragraph. feugiat, sem sed viverra rhoncus, ligula nibh commodo lorem, mollis rutrum arcu risus vel nisi. Ut accumsan tincidunt lorem in feugiat. Vestibulum non ullamcorper diam. Nam tincidunt accumsan nibh, a auctor arcu pulvinar sit amet. Mauris id justo mauris, ut eleifend nulla. Aenean fringilla tempor mauris, bibendum vehicula lectus euismod sed. Donec eu malesuada enim. Sed sit amet massa eget erat ullamcorper vestibulum ut at odio. 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a ante vel velit laoreet luctus. Curabitur sollicitudin lectus ultrices libero feugiat ullamcorper. Phasellus eu arcu nec libero volutpat bibendum at sed tellus. Quisque id sagittis sapien. Aenean ligula augue, feugiat quis egestas a, pretium sit amet dui. Cras nunc risus, porta eu lobortis et, sollicitudin ut urna. Nam interdum lacus vel urna tempor vitae tincidunt lectus convallis. Cras sit amet eros ante, nec bibendum dolor. Donec et mauris mi, sit amet pharetra est.
 
@@ -43,7 +44,14 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 ⋅⋅1. Ordered sub-list
 4. And another item.
 
+(image: unsplash1.jpg class: half)
+(image: unsplash1.jpg class: half last)
+
 ⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
+(image: unsplash1.jpg class: third)
+(image: unsplash1.jpg class: third)
+(image: unsplash1.jpg class: third last)
 
 ⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
 ⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
@@ -121,8 +129,9 @@ This line is separated from the one above by two newlines, so it will be a *sepa
 This line is also a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/7K5j4mMfBK0?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/mH41c5y-S7A?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/YWZ6RoKkPLE?rel=0" frameborder="0" allowfullscreen></iframe>
 
 - Some
 - Unordered
@@ -150,8 +159,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a ante vel ve
 
 ----
 
-Tags: asides, business, future, Opinions
+Tags: asides,business,future,Opinions
 
 ----
 
-categories: asides,business,future,Opinions
+Author: aizlewood

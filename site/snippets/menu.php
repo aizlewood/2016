@@ -2,7 +2,7 @@
 
 	<div class="logo-wrap">
 	    <a class="logo" href="<?php echo url() ?>">
-	      <img src="<?php echo url('assets/img/logo4.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
+	      <img src="<?php echo url('assets/img/logo2.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
 	    </a>
 	</div>
 
@@ -24,7 +24,3 @@
 	 </nav>
 	</nav>
 	<?php endif ?>
-
-<!--         <?php if( ($page->template() == "project") || ($page->template() == "article")): ?>
-            <?php snippet('nextprev') ?>
-    <?php endif ?> -->

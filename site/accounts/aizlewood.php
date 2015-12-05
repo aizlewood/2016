@@ -7,11 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - >
-    articles/style-guide-podcast-with-jeremy-keith
-  - >
-    projects/code-for-america/testing-another-row
-  - projects/code-for-america/testing-again
-  - >
-    projects/code-for-america/and-yet-another-row
-  - projects/fine-and-rare
+  - contact
+  - projects/side-projects/strava-ghost
+  - projects/side-projects/quick-score
+  - projects/side-projects
+  - projects/the-pie

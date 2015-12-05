@@ -1,0 +1,52 @@
+//Brand Colours
+$brand-blue : #0F182F;
+$brand-blue-light : #7E8FAE;
+$brand-fuchsia : #c41c58;
+$teal : #7ae2e2;
+$orange : #F5A623;
+
+//Support Colours
+$knockout : #212121;
+$light : #efefef;
+
+$white : #fff; 
+$black : #000;
+$light-grey : #ccc;
+$dark-grey : #666;
+
+//Canvas 
+$canvas-light : #F9FAFC;
+
+//Type
+$color-twilight: rgba(15,24,47,1);
+
+//Layout
+$max-width: 72em;
+
+//Defaults
+$space : 1em;
+$space-and-half : $space*1.5;
+$space-double : $space*2;
+$space-triple : $space*3;
+$space-quad : $space*4;
+$space-half : $space/2;
+$pad : 1em;
+$pad-and-bit : $pad*1.1;
+$pad-and-half : $pad*1.5;
+$pad-double : $pad*2;
+$pad-triple : $pad*3;
+$pad-half : $pad/2;
+$pad-quarter :$pad/4;
+
+
+//Breakpoints
+$bp-small : 24em;
+$bp-small-2 : 29.75em;
+$bp-small-3 : 39.8em;
+$bp-med : 46.8em;
+$bp-med-2 : 48em;
+$bp-large : 50em;
+$bp-large-2 : 66em;
+$bp-xl : 73em;
+$bp-xxl : 89em;
+$bp-xxxl : 93em;

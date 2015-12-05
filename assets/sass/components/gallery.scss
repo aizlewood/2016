@@ -23,6 +23,29 @@ ul.gallery li img {
 	height: auto;
 }
 
+.side-gallery {
+	background: $light;
+	width: 100%;
+	max-height: 40em;		
+	overflow: scroll;
+}
+
+.side-gallery ul {
+	width: 80%;
+	overflow-y: scroll;
+	padding: 0;
+	margin: 0;		
+}
+
+.side-gallery ul li {
+	float: left;
+	list-style-type: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
 
 @media all and (min-width: 40em) {
 	ul.gallery {
@@ -35,16 +58,41 @@ ul.gallery li img {
 
 	ul.gallery li {
 		line-height: 0;
-		margin: 0;
+		margin: 0 0 $space-double 0;
 		padding: 0;
-		width: 25.1%;
+		width: 49%;
 		float: none;
 		display: inline-block;
 		list-style-type: none;
+		position: relative;
 	}
 
 	ul.gallery li img {
 		width: auto;
 		height: auto;
+		position: relative;
+		top: 0;
+	}
+
+	.side-gallery {
+		background: $light;
+		width: 100%;
+		max-height: 40em;		
+		overflow: scroll;
+	}
+
+	.side-gallery ul {
+		width: 100%;
+		overflow-y: scroll;
+		padding: 0;
+		margin: 0;		
+	}
+
+	.side-gallery ul li {
+		float: left;
+		list-style-type: none;
+		width: 100%;
+		padding: 0;
+		margin: 0;
 	}	
 }	

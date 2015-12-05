@@ -1,9 +1,5 @@
 /* Buttons */
 
-a.clearleft {
-	color: #9DC640;
-}
-
 .uppercase {
 	text-transform: uppercase;
 }
@@ -17,27 +13,40 @@ a.back {
 }
 
 .intro a.cta {
-	font-family: $font-sans-condensed;
-	font-size-adjust:0.488; 
-	font-style:normal;	
-	padding: 2% 4%;
+	padding: 0;
+	margin: 0;
+	display: inline;
 	text-decoration: none;
-	color: #000;
-	font-size: 0.4em;
-	line-height: 2;
-	text-transform: uppercase;
-	text-shadow: none;
-	@include border-radius(5px);
-	background: rgba(255,255,255,1);
 	-webkit-transition: background 0.5s ease;
 	transition: background 0.5s ease;
 }
 
-.intro a.cta:hover {
-	background: rgba(255,255,255,0.7);
+.intro a.cta img {
+	width: 0.5em;
+	height: 0.5em;
 }
 
 .intro a.cta:active {
 	position: relative;
 	top: 1px;
+}
+
+a.text-btn {
+	background: $light;
+	top: $space;
+	padding: 0.5em;
+	border-radius: 5px;
+	text-shadow: none;
+	border: none;
+	background-image: none;	
+}
+
+a.text-btn:hover {
+	background: $brand-fuchsia;
+	color: $white;
+}
+
+
+a.clearleft {
+	color: #9DC640;
 }

@@ -17,34 +17,34 @@ nav.sidebar ul li  {
 }
 
 nav.sidebar ul li a {
-	// display: inline-block;
+	display: inline-block;
+	color: $light-grey;
 	line-height: 1.8;
-	// color: #333;
-	color: #fff;	
 }
 
 nav.sidebar ul li a.active {
-	// color: #000;
-	color: #fff;	
-	// border-bottom: 1px solid #000;	
-	border-bottom: 1px solid #999;	
+	color: $white;
+	border-bottom: 1px solid $brand-fuchsia;
 }	
 
-nav.sidebar ul li a:hover {
-	// color: #000;
-	color: #999;	
-	// border-bottom: 2px solid #EB2068;
+nav.sidebar ul li a.active:hover {
+	border-bottom: 1px solid $brand-fuchsia;
+}	
+
+nav.sidebar ul li a:hover {	
+	color: $white;
+	border-bottom: 0px solid $brand-blue;
 }
 
 nav.sidebar ul span {
-	color: #7E8FAE;	
+	color: $brand-blue-light;	
 	font-size: 1.2em;
 	font-family: $font-sans-regular;
 	display: none;
 }
 
 
-@media all and (min-width: 25em) {
+@media all and (min-width: 35em) {
 	.nav-collapse ul {
 	  background: transparent;
 	}	
@@ -57,7 +57,7 @@ nav.sidebar ul span {
 
 	nav.sidebar ul li  {
 		display: inline;
-		color: #7E8FAE;
+		color: $brand-blue-light;
 		font-size: 1rem;
 		margin: 0 0%;
 	}
@@ -68,7 +68,7 @@ nav.sidebar ul span {
 	}
 
 	nav.sidebar ul span {
-		color: #7E8FAE;	
+		color: $brand-blue-light;	
 		font-size: 1.2em;
 		display: none;
 	}
