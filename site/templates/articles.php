@@ -23,14 +23,17 @@
                       ->children()
                       ->visible()
                       ->flip()
-                      ->paginate(50);
+                      ->paginate(50)
+                      ->sortBy('date', 'desc');
   } ?>
 
 <?php foreach($articles as $article): ?>
 
-	<article class="post">
+	<article class="post index">
+                  <time datetime="<?php echo $article->date('c') ?>" pubdate="pubdate" class="time"><?php echo $article->date('F j, Y') ?></time>
 		<h2><a href="<?php echo $article->url() ?>"><?php echo html($article->title()) ?></a></h2>
 		<p><?php echo excerpt($article->text(), 200) ?></p>
+
 	</article>
 
 <?php endforeach ?>
@@ -40,16 +43,15 @@
 	<nav class="pagination">
 
 	  <?php if($articles->pagination()->hasNextPage()): ?>
-	  <a class="next" href="<?php echo $articles->pagination()->nextPageURL() ?>">&lsaquo; Older</a>
+	  <a class="next" href="<?php echo $articles->pagination()->nextPageURL() ?>">&lsaquo; Older stuff</a>
 	  <?php endif ?>
 
 	  <?php if($articles->pagination()->hasPrevPage()): ?>
-	  <a class="prev" href="<?php echo $articles->pagination()->prevPageURL() ?>">Newer &rsaquo;</a>
+	  <a class="prev" href="<?php echo $articles->pagination()->prevPageURL() ?>">Newer stuff &rsaquo;</a>
 	  <?php endif ?>
 
 	</nav>
 <?php endif ?>
-
+</main>
 
 <?php snippet('footer') ?>
-</main>

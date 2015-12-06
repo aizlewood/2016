@@ -1,5 +1,7 @@
   <footer class="footer-blog cf" role="contentinfo">
 
+ <main class="main blog" role="main">
+
   <div class="inner">
   	<div class="author">
   		<?php snippet('author') ?>	
@@ -15,6 +17,8 @@
   
   <?php echo webmentions() ?>
 
+  </main>
+  
   </footer>
 <?php echo js('assets/js/main.js') ?>
 <script>

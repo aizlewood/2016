@@ -34,7 +34,7 @@ a.back {
 a.text-btn {
 	background: $light;
 	top: $space;
-	padding: 0.5em;
+	padding: $space-half $space;
 	border-radius: 5px;
 	text-shadow: none;
 	border: none;

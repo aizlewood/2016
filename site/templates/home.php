@@ -2,13 +2,12 @@
 
   <main class="home main" role="main">
 
+	<!-- <?php snippet('status') ?> -->
 
 	<ul class="teaser cf animated fadeIn">
 	  <?php foreach(page('projects')->children()->visible()->limit(100) as $project): ?>
 	  
 	  <li>
-
-	    <!-- <div class="intro hub animated fadeIn" style="background-color:<?php echo $project->bgcolour()?>;"> -->
 
 	    <div class="intro hub animated fadeIn <?php echo $project->slug() ?>">
 

@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface:400);
-@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700);
 @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic);
 /*! normalize.css v1.1.0 | MIT License | git.io/normalize */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -615,10 +615,10 @@ h5 {
  }
 
 p, li {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
-  font-size: 9px;
-  font-size: 1.125em;
+  font-size: 8px;
+  font-size: 1em;
   line-height: 11px;
   line-height: 1.375em; }
 
@@ -645,10 +645,10 @@ p, li {
 
 @media all and (min-width: 40em) {
   p, li {
-    font-family: "Quattrocento Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
-    font-size: 10px;
-    font-size: 1.25em;
+    font-size: 9px;
+    font-size: 1.125em;
     line-height: 12px;
     line-height: 1.5em; }
 
@@ -661,11 +661,11 @@ p {
   margin-bottom: 5%; }
 
 p b, p strong {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700; }
 
 p em, p i {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: italic; }
 
 figcaption {
@@ -695,6 +695,13 @@ blockquote p cite {
   font-size: 80%;
   display: block; }
 
+body {
+  -moz-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+  -moz-font-feature-settings: "liga=1, dlig=1, hlig=1, clig=1";
+  -ms-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+  -webkit-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+  font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1; }
+
 a:link {
   text-decoration: none;
   padding: 0 2px;
@@ -712,7 +719,7 @@ article a {
 article a {
   text-decoration: none;
   position: relative;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  text-shadow: -1px -1px 0 #F9FAFC, 1px -1px 0 #F9FAFC, -1px 1px 0 #F9FAFC, 1px 1px 0 #F9FAFC;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #c41c58 2px, #c41c58 3px, rgba(0, 0, 0, 0) 3px);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #c41c58 2px, #c41c58 3px, rgba(0, 0, 0, 0) 3px); }
 
@@ -753,7 +760,7 @@ p.thoughts {
   font-size: 1.8em;
   padding: 0;
   margin: 2% 0 3% 0;
-  font-family: "Quattrocento Sans", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 .submenu ul li a {
   text-decoration: none; }
@@ -791,10 +798,10 @@ code {
   font-size: 0.8em; }
 
 dl {
-  font-family: "Quattrocento Sans", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 small {
-  font-family: "Quattrocento Sans", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 /*!
 Animate.css - http://daneden.me/animate
@@ -888,10 +895,10 @@ nav.sidebar ul li a:hover {
 nav.sidebar ul span {
   color: #7E8FAE;
   font-size: 1.2em;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   display: none; }
 
-@media all and (min-width: 35em) {
+@media all and (min-width: 23em) {
   .nav-collapse ul {
     background: transparent; }
 
@@ -960,7 +967,7 @@ nav.sidebar ul span {
   nav.sidebar ul span {
     color: #7E8FAE;
     font-size: 1.4em;
-    font-family: "Quattrocento Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     display: none; }
  }
 
@@ -1008,7 +1015,7 @@ article.post blockquote {
     padding: 0 13%; }
 
   article h1 {
-    padding: 3% 13%; }
+    padding: 3% 0%; }
 
   article.post-intro h1 {
     padding: 3% 13%; }
@@ -1019,12 +1026,35 @@ article.post blockquote {
 
 @media all and (min-width: 85em) {
   article.post {
-    max-width: 48em;
+    max-width: 40em;
     padding: 0 13% 0 13%; }
 
   article.page {
     max-width: 75%; }
  }
+
+.status {
+  margin: 0;
+  padding: 1em;
+  display: block;
+  overflow: hidden;
+  background: #7ae2e2;
+  border-bottom: 1px solid #fff; }
+
+.status .inner {
+  margin: 0 auto;
+  text-align: left;
+  max-width: 72em;
+  padding: 0 10%;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85em;
+  color: #0F182F; }
+
+.status .inner a {
+  color: #c41c58; }
 
 /* Buttons */
 .uppercase {
@@ -1035,7 +1065,7 @@ a.back {
   letter-spacing: 2px;
   font-size: 14px;
   color: #aaa;
-  font-family: "Quattrocento Sans", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 .intro a.cta {
   padding: 0;
@@ -1056,7 +1086,7 @@ a.back {
 a.text-btn {
   background: #efefef;
   top: 1em;
-  padding: 0.5em;
+  padding: 0.5em 1em;
   border-radius: 5px;
   text-shadow: none;
   border: none;
@@ -1092,7 +1122,7 @@ p.callout {
   padding: 1.5em 0;
   color: #fff;
   text-align: center;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   font-size: 2em; }
 
@@ -1115,7 +1145,7 @@ p.callout {
   height: auto;
   width: 100%;
   clear: both;
-  font-family: "Quattrocento Sans", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 .nextprev a {
   text-align: center;
@@ -1144,7 +1174,7 @@ p.callout {
     max-width: 7.5em;
     margin: 0;
     padding: 0;
-    font-family: "Quattrocento Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     border: 0;
     overflow: normal;
     background: transparent; }
@@ -1185,7 +1215,7 @@ p.callout {
     max-width: 7.5em;
     margin: 0;
     padding: 0;
-    font-family: "Quattrocento Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     border: 0;
     overflow: normal;
     background: transparent; }
@@ -1204,9 +1234,13 @@ p.callout {
 
 .footer-blog {
   border-top: 1px solid #ccc;
+  background: #F9FAFC;
   position: relative;
   overflow: hidden;
   padding: 5%; }
+
+footer {
+  background: #0F182F; }
 
 footer p:first-of-type {
   text-align: right;
@@ -1443,9 +1477,14 @@ figure.hero {
 .intro.single {
   height: 0vh; }
 
-.intro p.blurb {
-  max-width: 30em;
-  line-height: 1.4em; }
+.intro p.explanation {
+  margin-left: 1%; }
+
+.blurb {
+  max-width: 10em;
+  line-height: 1.4em;
+  font-style: italic;
+  margin-left: 1%; }
 
 .intro .hero-wrapper {
   position: absolute;
@@ -1489,7 +1528,7 @@ figure.hero {
 @media all and (min-width: 70em) {
   .intro h1 {
     font-size: 5vw;
-    font-size: 7em; }
+    font-size: 6.7em; }
 
   .intro .project-info {
     margin-top: 6vh; }
@@ -1501,8 +1540,8 @@ figure.hero {
     background-position: 0px 0px;
     height: 50vh; }
 
-  .intro p.blurb {
-    max-width: 40em;
+  .blurb {
+    max-width: 20em;
     margin-top: 0; }
  }
 
@@ -1650,7 +1689,7 @@ a.logo:hover {
 .nav-toggle.active {
   text-decoration: line-through; }
 
-@media screen and (min-width: 26em) {
+@media screen and (min-width: 23em) {
   .js .nav-collapse {
     position: relative; }
 
@@ -1669,6 +1708,15 @@ a.logo:hover {
 
 .author {
   float: left;
+  width: 100%;
+  color: #bbb;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400; }
+
+.time {
+  float: none;
   width: 100%;
   color: #bbb;
   font-size: 0.8em;
@@ -1727,8 +1775,7 @@ a.logo:hover {
   margin: 0 0 0 0;
   padding: 0;
   z-index: 998;
-  background: #bbb;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
   border-top: 1px solid #ccc; }
 
 .pagination a {
@@ -1737,10 +1784,10 @@ a.logo:hover {
   display: block;
   float: left;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   line-height: 3.5;
-  color: #444;
+  color: #0F182F;
   border-left: 1px solid #ccc; }
 
 .pagination a:hover {
@@ -1749,6 +1796,9 @@ a.logo:hover {
 .post {
   padding: 0% 8% 8% 8%;
   margin-bottom: 4%; }
+
+.post h2 {
+  margin-top: 0.3em; }
 
 .post-intro h1 {
   padding: 1% 8% 4% 8%;
@@ -1762,7 +1812,14 @@ a.logo:hover {
 
 @media all and (min-width: 50em) {
   .post {
-    padding: 0; }
+    padding: 0;
+    margin-bottom: 10%; }
+
+  .post.index {
+    margin-bottom: 4%; }
+
+  h1.post-title {
+    padding: 3% 13%; }
  }
 
 @media all and (min-width: 85em) {
@@ -1882,26 +1939,39 @@ a.logo:hover {
     margin-right: 0; }
  }
 
+.social {
+  margin: 0 auto;
+  text-align: center; }
+
 .social-linkage {
   text-align: center;
-  width: 100%; }
+  width: 91%;
+  padding: 1em; }
 
 .social-linkage ul {
-  width: 85%;
-  margin: 0;
-  padding: 0; }
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  text-align: center; }
 
 .social-linkage ul li {
+  width: 100%;
   list-style-type: none;
-  margin: 0.5em 0.5em 0.5em 0em;
-  float: none;
-  width: 100%; }
+  display: inline-block;
+  margin: 0.5em 0.5em 0.5em 0em; }
+
+.social-linkage ul li.title {
+  padding-top: 2%;
+  color: #ccc;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em; }
 
 .social-linkage ul li a {
-  padding: 0.5em 1.5em;
+  padding: 0.5em 1em;
   display: block;
-  width: 100%;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 0.7em;
   letter-spacing: 1px;
@@ -1912,6 +1982,22 @@ a.logo:hover {
   text-shadow: none;
   border: none;
   background-image: none; }
+
+@media all and (min-width: 50em) {
+  .social-linkage ul {
+    width: 130%; }
+
+  .social-linkage ul li {
+    width: 33%; }
+ }
+
+@media all and (min-width: 70em) {
+  .social-linkage ul {
+    width: 135%; }
+
+  .social-linkage ul li {
+    width: auto; }
+ }
 
 .social-linkage ul li a.flickr {
   border: 2px solid #0063dc;
@@ -1943,6 +2029,14 @@ a.logo:hover {
 
 .social-linkage ul li a.twitter:hover {
   background: #55acee;
+  color: #fff; }
+
+.social-linkage ul li a.instagram {
+  border: 2px solid #125688;
+  color: #125688; }
+
+.social-linkage ul li a.instagram:hover {
+  background: #125688;
   color: #fff; }
 
 .social-linkage ul li a.email {
@@ -1990,7 +2084,7 @@ table a:active, table a:hover {
   text-decoration: underline; }
 
 table {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #666;
   font-size: 12px;
   background: #eaebec;
@@ -2099,7 +2193,7 @@ ul.teaser .categories li {
 
 .segue {
   width: 100%;
-  background: #0F182F;
+  background: #c41c58;
   color: #fff;
   padding: 10% 0;
   text-align: center; }
@@ -2267,14 +2361,15 @@ video#bgvid:after {
   width: 100vw; }
 
 .single h1 {
-  padding: 0 0 2em 0;
+  padding: 0 0 0 0;
   margin: 0;
   border-bottom: 0;
-  font-size: 15vw; }
+  font-size: 3em; }
 
 .single p {
-  padding: 2em 0 0 0;
-  margin: 0; }
+  padding: 1em 0 0 0;
+  margin: 0;
+  opacity: 0.5; }
 
 .project-detail figure img {
   box-shadow: rgba(0, 0, 0, 0.2) 0 0px 50px; }
@@ -2287,14 +2382,14 @@ video#bgvid:after {
 
 @media all and (min-width: 40em) {
   .single .proposition {
-    height: 50vh;
-    margin-top: 20vh;
+    height: 35vh;
+    margin-top: 12vh;
     margin-left: 0;
     width: 50vw; }
 
   .single h1 {
-    padding: 0 0 0.5em 0;
-    font-size: 7vw; }
+    padding: 0 0 0.1em 0;
+    font-size: 6vw; }
 
   .single .explanation {
     font-size: 0.8em; }
@@ -2367,7 +2462,7 @@ video#bgvid:after {
   float: none;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0 0 2em 0;
   min-height: auto; }
 
 .project-meta ul {
@@ -2379,7 +2474,7 @@ video#bgvid:after {
     border: none;
     border-left: 1px solid #c41c58;
     float: right;
-    margin: 8% 1em 1em 2em;
+    margin: 8% 1em 10% 2em;
     padding: 1em;
     min-height: 100px; }
 

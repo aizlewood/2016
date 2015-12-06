@@ -1,13 +1,15 @@
-<div class="row">
-	<div class="social-linkage half">
+<div class="row social">
+	<div class="social-linkage">
 		<ul>
-			<li><a class="strava" href="#">Strava</a></li>	
-			<li><a class="dribbble" href="#">Dribbble</a></li>
-			<li><a class="twitter" href="#">Twitter</a></li>		
-			<li><a class="delicious" href="#">Delicious</a></li>
-			<li><a class="flickr" href="#">Flickr</a></li>		
-			<li><a class="linkedin" href="#">LinkedIn</a></li>
-			<li><a class="email" href="#">Email</a></li>			
+			<li class="title">Find me on:&nbsp;&nbsp;</li>
+			<li><a class="strava" href="https://www.strava.com/athletes/974795">Strava</a></li>	
+			<li><a class="dribbble" href="https://dribbble.com/aizlewood">Dribbble</a></li>
+			<li><a class="twitter" href="https://twitter.com/aizlewood">Twitter</a></li>			
+			<li><a class="delicious" href="https://delicious.com/aizle">Delicious</a></li>			
+			<li><a class="flickr" href="https://www.flickr.com/photos/aizle/">Flickr</a></li>		
+			<li><a class="linkedin" href="https://uk.linkedin.com/in/jonaizlewood">LinkedIn</a></li>
+			<li><a class="instagram" href="https://instagram.com/aizlewood">Instagram</a></li>					
+			<li><a class="email" href="mailto:jon@carbongraffiti.com">Email</a></li>			
 		</ul>
 	</div>
 </div>

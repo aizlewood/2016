@@ -14,9 +14,15 @@
 	height: 0vh;
 }
 
-.intro p.blurb {
-	max-width: 30em;
+.intro p.explanation {
+	margin-left: 1%;
+}
+
+.blurb {
+	max-width: 10em;
 	line-height: 1.4em;
+	font-style: italic;
+	margin-left: 1%;
 }
 
 
@@ -80,7 +86,7 @@
 
 	.intro h1 {
 		font-size: 5vw;
-		font-size: 7em;
+		font-size: 6.7em;
 	}
 
 	.intro .project-info {
@@ -96,8 +102,8 @@
 		height: 50vh;		
 	}
 
-	.intro p.blurb {
-		max-width: 40em;		
+	.blurb {
+		max-width: 20em;	
 		margin-top: 0;
 	}
 

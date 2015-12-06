@@ -12,10 +12,10 @@ Text:
 
 Having given numerous presentations for [EnglishUK](http://englishuk.com) on digital marketing and design, Amy Baker - co-founder of the PIE - came to CarbonGraffiti in the summer of 2011 with a idea: To create a fantastic news resource for the International Education industry.  
 
+What followed was the start of a fantastic journey that's seen the PIE grow exponentially and move from strength-to-strength, as well as amass a veritable empire of services and products.  Acting as not only a designer/developer but consultant, I was able to help and advise the PIE on direction, approaches and solutions throughout their tenure, and I continue to sit on their advisory board.
+
 > The PIE News is like the Vanity Fair of international education: a mix of hard news stories and features and photos that capture the real culture of international education. 
 > <cite>-- Daniel Obst, Deputy Vice President, International Partnerships, Institute of International Education (IIE) (USA)</cite>
-
-What followed was the start of a fantastic journey that's seen the PIE grow exponentially and move from strength-to-strength, as well as amass a veritable empire of services and products.  Acting as not only a designer/developer but consultant, I was able to help and advise the PIE on direction, approaches and solutions throughout their tenure, and I continue to sit on their advisory board.
 
 (image: coldgrey-darkerorange-nochrome.jpg class:normal-size)
 (image: email-template-announcement.png class:normal-size)

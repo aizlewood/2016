@@ -2,7 +2,7 @@
 	float: none;
 	width: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 $space-double 0;
 	min-height: auto;
 }
 
@@ -16,7 +16,7 @@
 		border: none;
 		border-left: 1px solid $brand-fuchsia;
 		float: right;
-		margin: 8% $space $space $space-double;
+		margin: 8% $space 10% $space-double;
 		padding: $space;
 		min-height: 100px;
 	}

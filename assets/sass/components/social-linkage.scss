@@ -1,26 +1,42 @@
+.social {
+	margin: 0 auto;
+	text-align: center;
+}
+
 .social-linkage {
 	text-align: center;
-	width: 100%;
+	width: 91%;
+	padding: $space;
 }
 
 .social-linkage ul {
-	width: 85%;
-	margin: 0;
+	width: 100%;
+	margin: 0 auto;
 	padding: 0;
+	display: block;
+	text-align: center;
 }
 
 .social-linkage ul li {
+	width: 100%;
 	list-style-type: none;
-	margin: 0.5em 0.5em 0.5em 0em;
-	float: none;
-	width: 100%;	
+	display: inline-block;
+	margin: 0.5em 0.5em 0.5em 0em;	
 }
 
+.social-linkage ul li.title {
+	padding-top: 2%;
+	color: $light-grey;
+	font-family: $font-sans-condensed;	
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+
+
 .social-linkage ul li a {
-	padding: 0.5em 1.5em;
+	padding: $space-half $space;
 	display: block;
-	width: 100%;
-	font-family: $font-sans-regular;	
+	font-family: $font-sans-condensed;	
 	text-transform: uppercase;
 	font-size: 0.7em;
 	letter-spacing: 1px;
@@ -30,6 +46,26 @@
 	border: none;
 	background-image: none;	
 }
+
+@media all and (min-width: 50em) {
+	.social-linkage ul {
+		width: 130%;
+	}
+	
+	.social-linkage ul li {
+		width: 33%;	
+	}	
+}	
+
+@media all and (min-width: 70em) {
+	.social-linkage ul {
+		width: 135%;
+	}
+	
+	.social-linkage ul li {
+		width: auto;	
+	}	
+}	
 
 .social-linkage ul li a.flickr {
 	border: 2px solid #0063dc;
@@ -61,6 +97,14 @@
 }
 .social-linkage ul li a.twitter:hover {
 	background: #55acee;
+	color: #fff;	
+}
+.social-linkage ul li a.instagram {
+	border: 2px solid #125688;
+	color: #125688;	
+}
+.social-linkage ul li a.instagram:hover {
+	background: #125688;
 	color: #fff;	
 }
 .social-linkage ul li a.email {

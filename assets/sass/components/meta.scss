@@ -8,6 +8,16 @@
     font-weight: 400;
 }
 
+.time {
+	float: none;
+	width: 100%;
+    color: #bbb;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-family: $font-sans-condensed;
+    font-weight: 400;
+}
+
 .author a {
 	color: #111;
 }

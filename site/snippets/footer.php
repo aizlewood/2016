@@ -1,5 +1,6 @@
 
 	<footer class="footer cf" role="contentinfo">
+		<?php snippet('social-links') ?>	
 	</footer>
 
 <?php echo js('assets/js/main.js') ?>
@@ -19,9 +20,11 @@ var options = {
 var numAnim = new CountUp("age", 0, 13505, 0, 5, options);
 var numAnim2 = new CountUp("career", 0, 11, 0, 15.5, options);
 var numAnim3 = new CountUp("uk", 0, 2920, 0, 11, options);
+var numAnim4 = new CountUp("strava", 0, 5131.4, 0, 11, options);
 numAnim.start();
 numAnim2.start();
 numAnim3.start();
+numAnim4.start();
 
 <?php endif ?>
 </script>

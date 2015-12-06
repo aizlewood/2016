@@ -2,7 +2,7 @@
 
       <main class="project main" role="main">
 
-<article class="project-detail">
+      <article class="project-detail">
 
 <?php foreach(page('projects')->children()->limit(1) as $project): ?>
 
@@ -14,7 +14,8 @@
 
             <div class="proposition">
               <p class="explanation condensed"><?php echo $page->lede()->html() ?></p>
-              <h1 class="animated fadeIn"><?php echo $page->title()->html() ?></h1>              
+              <h1 class="animated fadeIn"><?php echo $page->title()->html() ?></h1>
+              <p class="blurb"><?php echo $page->summary()->html() ?></p>
             </div>
 
 <?php endforeach ?>

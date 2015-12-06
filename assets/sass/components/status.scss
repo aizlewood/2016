@@ -1,0 +1,25 @@
+.status {
+	margin: 0;
+	padding: $space;
+	display: block;
+	overflow: hidden;
+	background: $teal;
+	border-bottom: 1px solid $white;
+}
+
+.status .inner {
+	margin: 0 auto;
+	text-align: left;
+	max-width: $max-width;
+	padding: 0 10%;
+	font-family: $font-sans-condensed;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.85em;
+	color: $brand-blue;
+}
+
+.status .inner a {
+	color: $brand-fuchsia;
+}

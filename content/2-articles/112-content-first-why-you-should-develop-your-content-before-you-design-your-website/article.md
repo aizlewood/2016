@@ -1,12 +1,12 @@
-title: Content first: why you should develop your content before you design your website
+Title: Content first: why you should develop your content before you design your website
 
 ----
 
-date: 2011-09-15 10:21
+Date: 2011-09-15
 
 ----
 
-text: 
+Text: 
 
 Should websites be built around the content, or should content be created to fit the design? Here’s an argument for creating content first – or at least <em>thinking</em> about content first.
 
@@ -41,12 +41,12 @@ Designing with content means...
 </ul>
 In the next post we’ll consider easy ways to create your content. Because for many organisations, content production is time-consuming, complicated, and a little bit scary. But it needn’t be.
 
-<blockquote class="author"><img src="http://a2.twimg.com/profile_images/1135125784/LK4.jpg" alt="Leif" width="60" height="50" align="left" />This was a <strong>guest post</strong> written by <strong>Leif Kendall</strong>, a <a href="http://kendallcopywriting.co.uk" title="Kendall Copywriting">freelance copywriter and content strategist</a>, and author of <a href="http://brilliantfreelancer.com/" title="Brilliant Freelancer">Brilliant Freelancer</a>.</blockquote>
+<blockquote><img src="http://a2.twimg.com/profile_images/1135125784/LK4.jpg" alt="Leif" width="60" height="50" align="left" />This was a <strong>guest post</strong> written by <strong>Leif Kendall</strong>, a <a href="http://kendallcopywriting.co.uk" title="Kendall Copywriting">freelance copywriter and content strategist</a>, and author of <a href="http://brilliantfreelancer.com/" title="Brilliant Freelancer">Brilliant Freelancer</a>.</blockquote>
 
 ----
 
-tags: business,content,process,web design
+Tags: business,content,process,web design
 
 ----
 
-categories: business,content,process,web design
+Author: aizlewood

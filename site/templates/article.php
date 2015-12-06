@@ -15,6 +15,6 @@
   <article class="post">
     <?php echo kirbytext($page->text()) ?>
   </article>
-<?php snippet('footer-blog') ?>  
-
 </main>
+  
+<?php snippet('footer-blog') ?>  

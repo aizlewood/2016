@@ -1,8 +1,13 @@
 .footer-blog {
 	border-top: 1px solid #ccc;	
+	background: $canvas-light;
 	position: relative;	
 	overflow: hidden;
 	padding: 5%;
+}
+
+footer {
+	background: $brand-blue;
 }
 
 footer p:first-of-type {
