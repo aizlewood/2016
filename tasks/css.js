@@ -55,15 +55,17 @@ module.exports = function(grunt) {
             files: concatTargets
         });
         
-        grunt.config('autoprefixer', {
+        grunt.config('postcss', {
             options: {
-                browsers: grunt.config('tasks.css.autoprefix')
+                map: false,
+                processors: [
+                    require('autoprefixer')({
+                        browsers: grunt.config('tasks.css.autoprefix')
+                    })
+                ]
             },
             dist: {
-                src: autoprefixTargets,
-                options: {
-                    map: false
-                }
+                src: autoprefixTargets
             }
         });
 
@@ -81,7 +83,7 @@ module.exports = function(grunt) {
             grunt.config('clean.css', []);
         }
         
-        grunt.registerTask('css:dist', ['clean:css', 'sass:dist', 'concat:css', 'clean:csstmp', 'autoprefixer', 'cssmetrics']);
+        grunt.registerTask('css:dist', ['clean:css', 'sass:dist', 'concat:css', 'clean:csstmp', 'postcss', 'cssmetrics']);
         grunt.registerTask('css:dev', ['clean:css', 'sass:dev', 'concat:css', 'clean:csstmp']);
         grunt.registerTask('css:release', ['css:dist']);
 
