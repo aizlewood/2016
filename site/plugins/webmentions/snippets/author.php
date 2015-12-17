@@ -1,4 +1,4 @@
-<figure class="webmention-author">
+<!-- <figure class="webmention-author">
   <a title="<?php echo $author->name() ?>" class="webmention-author-photo" href="<?php echo $author->url() ?>">
     <?php if($author->photo()->exists()): ?>
     <img src="<?php echo $author->photo()->url() ?>" alt="<?php echo $author->name() ?>">
@@ -10,4 +10,4 @@
       <a href="<?php echo $mention->url() ?>"><?php echo $mention->date('d M Y - h:i') ?></a>
     </time>
   </figcaption>
-</figure>
+</figure> -->

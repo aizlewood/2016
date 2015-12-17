@@ -105,7 +105,7 @@ module.exports = function(grunt) {
              * Changes to any files specified here will result in the js task being 
              * re-run (when using grunt watch). Delete to disable watch for this task.
              */
-            watch: ['assets/js/**/*.js'],
+            watch: ['assets/js/**/*.js','!assets/js/main.js'],
             /*
              * Any files and folders to delete prior to the build task running.
              * Delete this if you don't want to run the clean step before generating the fresh files.

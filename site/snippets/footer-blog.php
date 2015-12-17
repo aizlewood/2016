@@ -15,7 +15,7 @@
 
   </div>
   
-  <?php echo webmentions() ?>
+  <?php // echo webmentions() ?>
 
   </main>
   

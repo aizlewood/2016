@@ -806,9 +806,6 @@ small {
 .webmentions {
   padding: 1em; }
 
-.webmentions-mentions h1 {
-  font-size: 1em; }
-
 .webmention-author {
   display: none; }
 
