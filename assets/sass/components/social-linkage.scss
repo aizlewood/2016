@@ -3,9 +3,17 @@
 	text-align: center;
 }
 
+.social.row {
+	padding: 0 2%;
+}
+
+.social.row ul {
+	text-align: right;
+	padding: 0;
+}
+
 .social-linkage {
 	text-align: center;
-	width: 91%;
 	padding: $space;
 }
 
@@ -16,7 +24,7 @@
 }
 
 .social-linkage ul li {
-	width: 40%;
+	width: 100%;
 	list-style-type: none;
 	display: inline-block;
 	margin: 0.5em 0.5em 0.5em 0em;	
@@ -46,9 +54,7 @@
 }
 
 @media all and (min-width: 50em) {
-	.social-linkage ul {
-		width: 130%;
-	}
+
 	
 	.social-linkage ul li {
 		width: 15%;	
@@ -56,9 +62,6 @@
 }	
 
 @media all and (min-width: 70em) {
-	.social-linkage ul {
-		width: 135%;
-	}
 	
 	.social-linkage ul li {
 		width: auto;	

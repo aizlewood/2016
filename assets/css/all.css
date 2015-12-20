@@ -1878,9 +1878,15 @@ ul.teaser.projects-list li {
   margin: 0 auto;
   text-align: center; }
 
+.social.row {
+  padding: 0 2%; }
+
+.social.row ul {
+  text-align: right;
+  padding: 0; }
+
 .social-linkage {
   text-align: center;
-  width: 91%;
   padding: 1em; }
 
 .social-linkage ul {
@@ -1889,7 +1895,7 @@ ul.teaser.projects-list li {
   display: block; }
 
 .social-linkage ul li {
-  width: 40%;
+  width: 100%;
   list-style-type: none;
   display: inline-block;
   margin: 0.5em 0.5em 0.5em 0em; }
@@ -1917,14 +1923,10 @@ ul.teaser.projects-list li {
   background-image: none; }
 
 @media all and (min-width: 50em) {
-  .social-linkage ul {
-    width: 130%; }
   .social-linkage ul li {
     width: 15%; } }
 
 @media all and (min-width: 70em) {
-  .social-linkage ul {
-    width: 135%; }
   .social-linkage ul li {
     width: auto; } }
 
