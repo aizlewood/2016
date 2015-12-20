@@ -1454,6 +1454,15 @@ figure.hero {
 .title i {
   font-family: "Playfair Display", serif; }
 
+.intro h1 {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+      hyphens: auto; }
+
 .intro {
   text-align: left;
   color: #0F182F;

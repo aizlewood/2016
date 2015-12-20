@@ -3,6 +3,19 @@
 	font-family: $font-serif-emphasis;
 }
 
+.intro h1 {
+ -ms-word-break: break-all;
+     word-break: break-all;
+
+     // Non standard for webkit
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;	
+
+}
+
 .intro  {
 	text-align: left;	
 	color: $brand-blue;
