@@ -1534,7 +1534,7 @@ a.logo {
   float: left;
   width: 3em;
   height: 3em;
-  padding: 0.5em 0.5em 0.5em 1em;
+  padding: 0.2em 0.5em 0.5em 1em;
   overflow: hidden; }
 
 a.logo:hover {
@@ -1637,7 +1637,7 @@ a.logo:hover {
   -o-user-select: none;
   user-select: none;
   float: right;
-  margin-top: 1.1em;
+  margin-top: 0.85em;
   margin-right: 1.3em;
   text-transform: uppercase;
   font-size: 1.3em;
@@ -1880,7 +1880,7 @@ a.logo:hover {
   padding: 1em; }
 
 .social-linkage ul {
-  width: 100%;
+  width: 40%;
   margin: 0 auto;
   padding: 0;
   display: block;
@@ -1918,7 +1918,7 @@ a.logo:hover {
   .social-linkage ul {
     width: 130%; }
   .social-linkage ul li {
-    width: 33%; } }
+    width: 15%; } }
 
 @media all and (min-width: 70em) {
   .social-linkage ul {
@@ -2317,6 +2317,10 @@ video#bgvid:after {
     font-size: 0.8em; }
   .project-detail img {
     box-shadow: rgba(0, 0, 0, 0.2) 0 0px 50px; } }
+
+.bison-growler-club {
+  background: url("/assets/img/bgs/bgc.jpg") repeat 0 0;
+  background-size: cover; }
 
 .bikeregister {
   background: url("/assets/img/bgs/bikeregister.jpg") repeat 0 0;
