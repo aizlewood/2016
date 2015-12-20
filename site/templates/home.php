@@ -10,10 +10,6 @@
 	  <li>
 
 	    <div class="intro hub animated fadeIn <?php echo $project->slug() ?>">
-
-	    <div class="hero-wrapper">
-	    	<img src="<?php echo $project->hero()->html() ?>">
-	    </div>
 	          
 	    <div class="project-info">
 	    
