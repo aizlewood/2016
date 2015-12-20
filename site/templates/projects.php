@@ -13,7 +13,7 @@
 	          
 	    <div class="project-info">
 	  
-	          <h1 class="animated fadeIn"><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a><a class="cta" href="<?php echo $project->url() ?>">&nbsp;<img src="<?php echo url('assets/img/arrow-right.svg') ?>"></a></h1>
+	          <h1 class="animated fadeIn"><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h1>
 	    </div>
 
 	    </div>
