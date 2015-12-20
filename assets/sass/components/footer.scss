@@ -6,6 +6,20 @@
 	padding: 5%;
 }
 
+small.footer {
+	text-align: right;
+	display: block;
+	padding: $space;
+	text-transform: uppercase;
+	letter-spacing: 1px;	
+}
+
+small.footer.blog {
+	color: $dark-grey;
+	text-align: right;
+	display: block;
+}
+
 footer {
 	background: $brand-blue;
 }

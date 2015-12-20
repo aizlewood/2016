@@ -1,6 +1,12 @@
 
 	<footer class="footer cf" role="contentinfo">
+<?php if($page == 'about'): ?>
+
 		<?php snippet('social-links') ?>	
+		
+<?php endif ?>
+		<small class="footer blog">&copy; <?php echo date("Y"); ?> CarbonGraffiti Ltd. All rights reserved.</small>
+
 	</footer>
 
 <?php echo js('assets/js/main.js') ?>
@@ -8,6 +14,8 @@
 var nav = responsiveNav(".nav-collapse");
 
 <?php if($page == 'about'): ?>
+
+
 
 var options = {
   useEasing : true, 

@@ -1,33 +1,22 @@
-.projects article {
-	position: relative;
-	background: #fff;
+ul.teaser.projects-list li {
+	border-bottom: 1px solid $knockout;
 }
 
-.projects figure.hero img {
-	margin-top: -3em;
+.projects {
+	padding: 5%;
+	background: $brand-blue;
 }
 
-.projects .intro {
-	padding: 30% 10% 60% 10%;
+.projects h1 a {
+	color: $white;
+}
+
+.projects h1 a:hover {
+	color: $brand-fuchsia;
 }
 
 @media all and (min-width: 40em) {
-	.projects .intro {
-		padding: 10% 10% 40% 10%;
-	}	
-	.projects .intro h1 {
-		font-size: 6em;
-	}	
-}
-
-@media all and (min-width: 50em) {
 	.projects {
-		margin-top: -5em;
+		padding: 2% 5%;
 	}
-	.projects {	
-		max-width: 100%;
-		font-size: 100%;
-		padding: 0;	
-		padding-bottom: 0%;	
-	}		
-}	
+}

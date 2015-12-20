@@ -2,36 +2,25 @@
 
   <main class="main" role="main">
 
-	<ul class="teaser cf">
+	<!-- <?php snippet('status') ?> -->
+
+	<ul class="teaser projects-list">
 	  <?php foreach(page('projects')->children()->visible()->limit(100) as $project): ?>
+	  
 	  <li>
 
-	  	<?php if($project->bgblock() != ''): ?>
-		<div class="intro" style="background-color:<?php echo $project->bgblock()?>;'">
-
-	          <h1><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h1>
-	          <p><?php echo $project->snippet()->html() ?></p>
-	          <p class="read-case-study"><a class="cta" href="<?php echo $project->url() ?>">read&nbsp;the&nbsp;case&nbsp;study→</a></p>
-	    </div>
-
-		<?php else : ?>
-
-	    <?php if($image = $project->images()->sortBy('sort', 'asc')->get('artboard.jpg')): ?>
-	    <div class="intro hub" style="background-image:url('<?php echo $image->url() ?>')">
-
-	    <?php endif ?>
+	    <div class="projects">
+	          
+	    <div class="project-info">
 	  
-	          <h1><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h1>
-	          <p><?php echo $project->snippet()->html() ?></p>
-	          <p class="read-case-study"><a class="cta" href="<?php echo $project->url() ?>">read&nbsp;the&nbsp;case&nbsp;study→</a></p>
+	          <h1 class="animated fadeIn"><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a><a class="cta" href="<?php echo $project->url() ?>">&nbsp;<img src="<?php echo url('assets/img/arrow-right.svg') ?>"></a></h1>
 	    </div>
 
-	    <?php endif ?>
+	    </div>
 	    
 	  </li>
 	  <?php endforeach ?>
 	</ul>
-
 
   </main>
 

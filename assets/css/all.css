@@ -1231,6 +1231,18 @@ p.callout {
   overflow: hidden;
   padding: 5%; }
 
+small.footer {
+  text-align: right;
+  display: block;
+  padding: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+small.footer.blog {
+  color: #666;
+  text-align: right;
+  display: block; }
+
 footer {
   background: #0F182F; }
 
@@ -1773,30 +1785,22 @@ a.logo:hover {
   .post-intro .inner {
     max-width: 48em; } }
 
-.projects article {
-  position: relative;
-  background: #fff; }
+ul.teaser.projects-list li {
+  border-bottom: 1px solid #212121; }
 
-.projects figure.hero img {
-  margin-top: -3em; }
+.projects {
+  padding: 5%;
+  background: #0F182F; }
 
-.projects .intro {
-  padding: 30% 10% 60% 10%; }
+.projects h1 a {
+  color: #fff; }
+
+.projects h1 a:hover {
+  color: #c41c58; }
 
 @media all and (min-width: 40em) {
-  .projects .intro {
-    padding: 10% 10% 40% 10%; }
-  .projects .intro h1 {
-    font-size: 6em; } }
-
-@media all and (min-width: 50em) {
   .projects {
-    margin-top: -5em; }
-  .projects {
-    max-width: 100%;
-    font-size: 100%;
-    padding: 0;
-    padding-bottom: 0%; } }
+    padding: 2% 5%; } }
 
 .row {
   text-align: left;
