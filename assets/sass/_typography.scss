@@ -60,6 +60,11 @@ p, li {
 	@include line-height(11);
 }
 
+mark {
+	background: #eacfd9;
+	color: #000;
+}
+
 .lede {
 	font-family: $font-sans-condensed;
 	text-transform: uppercase;
@@ -127,7 +132,7 @@ figcaption {
 }
 
 blockquote  {
-	padding: 5% 0 2% 0;
+	padding: 0% 0 2% 0;
 	margin: 4%;
 	position: relative;
 	border-top: 1px solid rgba(255,255,255,0.3);
@@ -138,7 +143,7 @@ blockquote p {
 	line-height: 1.5;
 	color: $black;
 	font-family: $font-serif-bold;	
-	font-weight: 700;
+	font-weight: 400;
 }
 
 blockquote p cite {

@@ -624,6 +624,10 @@ p, li {
   line-height: 11px;
   line-height: 1.375em; }
 
+mark {
+  background: #eacfd9;
+  color: #000; }
+
 .lede {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -679,7 +683,7 @@ figcaption {
   color: rgba(255, 255, 255, 0.8); }
 
 blockquote {
-  padding: 5% 0 2% 0;
+  padding: 0% 0 2% 0;
   margin: 4%;
   position: relative;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
@@ -689,7 +693,7 @@ blockquote p {
   line-height: 1.5;
   color: #000;
   font-family: "Playfair Display", serif;
-  font-weight: 700; }
+  font-weight: 400; }
 
 blockquote p cite {
   line-height: 1.5;
