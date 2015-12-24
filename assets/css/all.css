@@ -691,7 +691,7 @@ blockquote {
 
 blockquote p {
   line-height: 1.5;
-  color: #000;
+  color: #0F182F;
   font-family: "Playfair Display", serif;
   font-weight: 400; }
 
@@ -1091,17 +1091,17 @@ a.back {
   top: 1px; }
 
 a.text-btn {
-  background: #efefef;
+  background: #0F182F;
+  color: #fff;
   top: 1em;
-  padding: 0.5em 1em;
+  padding: 0.5em 2em;
   border-radius: 5px;
   text-shadow: none;
   border: none;
   background-image: none; }
 
 a.text-btn:hover {
-  background: #c41c58;
-  color: #fff; }
+  color: #7ae2e2; }
 
 a.clearleft {
   color: #9DC640; }
@@ -2294,7 +2294,8 @@ video#bgvid:after {
 
 .single {
   background: #efefef;
-  margin-bottom: 3em; }
+  margin-bottom: 3em;
+  border-bottom: 1px solid #ccc; }
 
 .single .proposition {
   margin-top: 10vh;
@@ -2413,9 +2414,9 @@ video#bgvid:after {
   .project-meta {
     width: 33.33%;
     border: none;
-    border-left: 1px solid #c41c58;
+    border-left: 4px solid #0F182F;
     float: right;
-    margin: 8% 1em 10% 2em;
+    margin: 10% 1em 10% 3em;
     padding: 1em;
     min-height: 100px; }
   .project-meta ul {

@@ -32,9 +32,10 @@ a.back {
 }
 
 a.text-btn {
-	background: $light;
+	background: $brand-blue;
+	color: $white;
 	top: $space;
-	padding: $space-half $space;
+	padding: $space-half $space-double;
 	border-radius: 5px;
 	text-shadow: none;
 	border: none;
@@ -42,8 +43,7 @@ a.text-btn {
 }
 
 a.text-btn:hover {
-	background: $brand-fuchsia;
-	color: $white;
+	color: $teal;
 }
 
 

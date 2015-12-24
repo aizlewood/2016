@@ -18,6 +18,10 @@ li {
 	color: #fff;
 }
 
+.single {
+	border-bottom: 1px solid #000;
+}
+
 a:link {
 	color: #dc3f3d;
 }
