@@ -1,8 +1,14 @@
 # Kirby .htaccess
 
-	<IfModule mod_deflate.c>
-	  AddOutputFilterByType DEFLATE application/x-javascript application/javascript text/javascript text/css text/html text/xml
-	</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteOptions Inherit
+ReWriteCond %{HTTP:accept-encoding} (gzip.*) 
+ReWriteCond %{REQUEST_FILENAME} !.+\.gz$ 
+RewriteCond %{REQUEST_FILENAME}.gz -f 
+RewriteRule (.+) $1.gz [QSA,L] 
+</IfModule>
 
 
 # rewrite rules
