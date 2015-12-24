@@ -3,7 +3,7 @@ header {
 	display: block;	
 	float: none;
 	height: 4rem;
-	background: $brand-blue;
+	background: url('/assets/img/bgs/tiled-bg.png') repeat $brand-blue;
 	z-index: 999;
 	position: relative;
 	position: fixed;
