@@ -2299,9 +2299,7 @@ video#bgvid:after {
   border-bottom: 1px solid #ccc; }
 
 .single .proposition {
-  margin-top: 10vh;
-  margin-left: 5vw;
-  width: 100vw; }
+  margin-left: 5vw; }
 
 .single h1 {
   padding: 0 0 0 0;
