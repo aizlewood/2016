@@ -10,9 +10,13 @@
 	padding: 0;
 }
 
+.project-meta ul li {
+	list-style-type: none;
+}
+
 @media all and (min-width: 60em) {
 	.project-meta {
-		width: 33.33%;
+		width: 39.33%;
 		border: none;
 		border-left: 4px solid $brand-blue;
 		float: right;

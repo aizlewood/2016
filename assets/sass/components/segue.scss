@@ -2,29 +2,28 @@
 	width: 100%;
 	background: $brand-fuchsia;
 	color: $white;
-	padding: 10% 0;
+	padding: 5% 0;
 	text-align: center;
 }
 
 .segue a {
-	padding: $space 5em $space-and-half 5em;
-	font-size: 1em;
-	color: $white !important;
 	text-transform: uppercase;
 	font-family: $font-sans-condensed;
-	font-size-adjust:0.488; 
-	border: none;
-	text-shadow: none;
-	border: none;
-	background-image: none;
+	font-weight: normal;
+	font-size-adjust:0.488;
+}
+
+.segue button {
+	font-size: 0.8em;
 }
 
 .segue a:hover {
-	color: $brand-fuchsia;
+	background-image: none;
 }
 
 @media all and (min-width: 40em) {
 	.segue {
-		padding: 4% 0;
+		margin-top: $space-double;
+		padding: 2% 0;
 	}	
 }	

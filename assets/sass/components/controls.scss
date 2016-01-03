@@ -9,25 +9,36 @@
 
 .nextprev {
 	position: fixed;
-	bottom: 10%;
+	bottom: 0;
 	z-index: 998;
 	height: auto;
 	width: 100%;	
 	clear: both;
-	font-family: $font-sans-regular;
+	font-family: $font-sans-condensed;
+	color: $knockout;
+	background: $white;
 }
 
 .nextprev a {
 	text-align: center;
-	width: 1em;
-	height: 1em;
-	padding: 1em 0.5em 1.5em 0.5em;
+	padding: 0.5em 1em;
 	display: block;
 	text-transform: uppercase;
 	color: #444;
 	background: #fff;
 	float: left;
-	opacity: 0.5;
+	position: relative;
+	top: 2px;
+}
+
+.nextprev a.prev:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url(/assets/img/arrow-left.svg) 0 0 no-repeat;
+  background-size: contain;
+  float: left;
+  margin: 0 5px 0 0;
 }
 
 .nextprev a:hover {
@@ -37,15 +48,25 @@
 
 .nextprev a.next {
 	float: right;
+	margin-right: -10px;
 }
 
+.nextprev a.next:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url(/assets/img/arrow-right.svg) 0 0 no-repeat;
+  background-size: contain;  
+  float: right;
+  margin: 0 0 0 10px;
+}
 
 @media all and (min-width: 50em) {
 	.nextprev {
-		position: absolute;
+		position: fixed;
 		top: 0.5em;
-		right: 0.5em;
-		max-width: 7.5em;
+		right: 1.5em;
+		max-width: 5.5em;
 		margin: 0;
 		padding: 0;
 		font-family: $font-sans-regular;
@@ -53,6 +74,10 @@
 		overflow: normal;
 		background: transparent;
 	}
+
+	.nextprev a.next {
+		margin-right: 0px;
+	}	
 
 	.nextprev a img {
 		display: block;
@@ -68,13 +93,23 @@
 	.nextprev a {
 		float: left;
 		text-align: center;
+		text-indent: -9999px;
+		overflow: hidden;
 		color: #999;
 		width: 1em;
 		margin: 0.5em 0.1em;
-		padding: 0.75em 1.1em 1.4em 1em;
+		padding: 0.5em;
 		background: #fff;
 		border-radius: 3px;
 		opacity: 0.5;
+	}
+
+	.nextprev a.prev:before {
+	  width: 14px;
+	}	
+
+	.nextprev a.next:before {
+	  width: 14px;
 	}
 
 	.nextprev a:hover {
@@ -88,31 +123,31 @@
 		
 }	
 
-@media all and (min-width: 100em) {
-	.nextprev {
-		position: fixed;
-		top: 0.5em;
-		right: 0.5em;
-		max-width: 7.5em;
-		margin: 0;
-		padding: 0;
-		font-family: $font-sans-regular;
-		border: 0;
-		overflow: normal;
-		background: transparent;
-	}
+// @media all and (min-width: 100em) {
+// 	.nextprev {
+// 		position: fixed;
+// 		top: 0.5em;
+// 		right: 0.5em;
+// 		max-width: 7.5em;
+// 		margin: 0;
+// 		padding: 0;
+// 		font-family: $font-sans-regular;
+// 		border: 0;
+// 		overflow: normal;
+// 		background: transparent;
+// 	}
 
-	.nextprev a {
-		float: left;
-		text-align: center;
-		color: #999;
-		width: 1em;
-		margin: 0.5em 0.1em;
-		padding: 0.75em 1.1em 1.4em 1em;
-		background: #fff;
-		border-radius: 3px;
-		opacity: 0.5;
-	}
+// 	.nextprev a {
+// 		float: left;
+// 		text-align: center;
+// 		color: #999;
+// 		width: 1em;
+// 		margin: 0.5em 0.1em;
+// 		padding: 0.75em 1.1em 1.4em 1em;
+// 		background: #fff;
+// 		border-radius: 3px;
+// 		opacity: 0.5;
+// 	}
 
 		
-}	
+// }	

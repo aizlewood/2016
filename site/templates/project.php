@@ -51,7 +51,10 @@
     
     <div class="segue">
           <?php if($next = $page->nextVisible()): ?>
-          <a href="<?php echo $next->url() ?>">Next: <?php echo $next->title() ?></a>
+          <a href="<?php echo $next->url() ?>">
+            <button class="btn btn-4 btn-4a icon-arrow-right">Next: <?php echo $next->title() ?></button>
+          </a>
+          <!-- <a href="<?php echo $next->url() ?>">Next: <?php echo $next->title() ?></a> -->
           <?php else : ?>
           <?php endif ?>
     </div>

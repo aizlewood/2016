@@ -97,7 +97,7 @@ module.exports = function(grunt) {
              */
             files: [{
                 //src: ['assets/js/jquery.js', 'assets/js/main.js'],
-                src: ['assets/js/pace.js','assets/js/responsive-nav.js','assets/js/countUp.js'],
+                src: ['assets/js/headroom.min.js','assets/js/pace.js','assets/js/responsive-nav.js','assets/js/countUp.js'],
                 dest: 'assets/js/main.js'
             }],
             /*

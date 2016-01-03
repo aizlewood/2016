@@ -5,14 +5,25 @@
 a.logo {
   display: block;
   float: left;
-  width: 3em;
-  height: 3em;
-  padding: 0.2em 0.5em 0.5em 1em;
+  width: 2em;
+  height: 2em;
+  padding: 0.3em 0.5em 0.5em 1em;
   overflow: hidden;
 }
 
 a.logo:hover {
   border-bottom: none;
+}
+
+@media all and (min-width: 25em) {
+	a.logo {
+	  display: block;
+	  float: left;
+	  width: 3em;
+	  height: 3em;
+	  padding: 0.8em 0.5em 0.5em 1em;
+	  overflow: hidden;
+	}	
 }
 
 @media all and (min-width: 50em) {

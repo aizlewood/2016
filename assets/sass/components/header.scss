@@ -1,8 +1,20 @@
+@media all and (max-width: 20em) {
+	.headroom {
+	    transition: transform 200ms linear;
+	}
+	.headroom--pinned {
+	    transform: translateY(0%);
+	}
+	.headroom--unpinned {
+	    transform: translateY(-100%);
+	}
+}
+
 header {
 	// -webkit-animation: pulse 120s infinite alternate;	
 	display: block;	
 	float: none;
-	height: 4rem;
+	height: 3rem;
 	background: url('/assets/img/bgs/tiled-bg.png') repeat $brand-blue;
 	z-index: 999;
 	position: relative;

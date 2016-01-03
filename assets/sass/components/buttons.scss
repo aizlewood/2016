@@ -50,3 +50,76 @@ a.text-btn:hover {
 a.clearleft {
 	color: #9DC640;
 }
+
+
+/* General button style (reset) */
+.btn {
+	border: none;
+	background: none;
+	cursor: pointer;
+	padding: 15px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.icon-arrow-right:before {
+	content: "➜";
+}
+
+/* Button 4 */
+.btn-4 {
+	border-radius: 30px;
+	border: 1px solid $white;
+	color: $white;
+	overflow: hidden;
+}
+
+.btn-4:active {
+	border-color: $teal;
+	color: $teal;
+}
+
+.btn-4:hover {
+	background: $brand-blue;
+}
+
+.btn-4:before {
+	position: absolute;
+	height: 100%;
+	font-size: 125%;
+	line-height: 2.85;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-4:active:before {
+	color: $teal;
+}
+
+/* Button 4a */
+.btn-4a:before {
+	left: 130%;
+	top: 0;
+}
+
+.btn-4a:hover:before {
+	left: 80%;
+}

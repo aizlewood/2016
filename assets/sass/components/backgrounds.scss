@@ -1,47 +1,212 @@
 .bison-growler-club {
-	background: url('/assets/img/bgs/bgc.jpg') repeat 0 0;
-	background-size: cover;
+	background: #0097B6;
+
+	@media all and (min-width: 70em) {
+		background: url('/assets/img/bgs/bgc.jpg') no-repeat #0097B6;
+		background-position: right -20rem top 50%;
+	}	
 }
 
-.bikeregister {
-	background: url('/assets/img/bgs/bikeregister.jpg') repeat 0 0;
-	background-size: cover;		
+.single.bison-growler-club {
+	background-color: #0097B6;
+	background-image: none;	
 }
+
+.bison-growler-club .intro,
+.bison-growler-club h1, 
+.bison-growler-club h1 a, 
+.bison-growler-club p {
+	color: $white;
+}
+
+
+
+//----------------------------------//
 
 .code-for-america {
-	background: url('/assets/img/bgs/cfa.jpg') repeat 0 0;
-	background-size: cover;		
+	background: #cf1b41;
+
+	@media all and (min-width: 70em) {
+		background: url('/assets/img/bgs/cfa-mbp.jpg') no-repeat #cf1b41;
+		background-position: right -20rem top 50%;
+	}	
 }
+
+.single.code-for-america {
+	background-color: #cf1b41;
+	background-image: none;	
+}
+
+.code-for-america .intro,
+.code-for-america h1, 
+.code-for-america h1 a, 
+.code-for-america p {
+	color: $white;
+}
+
+//----------------------------------//
+
+.bikeregister {
+	background-color: $white;
+
+	@media all and (min-width: 70em) {
+		background: url('/assets/img/bgs/bikeregister-phone.jpg') no-repeat right -13rem top 50%,
+		url('/assets/img/bgs/bikes-white.png') repeat-x 0 105%;
+		background-color: $white;
+	}		
+}
+
+.single.bikeregister {
+	background-color: $white;
+	background-image: none;
+}
+
+.bikeregister .intro,
+.bikeregister h1, 
+.bikeregister h1 a, 
+.bikeregister p {
+	color: #36424A;
+}
+
+//----------------------------------//
 
 .nbc-puma {
-	background: url('/assets/img/bgs/puma.jpg') repeat 0 0;
-	background-size: cover;		
+	background: linear-gradient(to right,  #35255d 0%,#cb1e44 100%);
+
+	@media all and (min-width: 70em) {
+		background: url('/assets/img/bgs/nbc-puma2.png') no-repeat right -15rem top 60%, 
+		linear-gradient(to right,  #35255d 0%,#cb1e44 100%);		
+	}		
 }
+
+.single.nbc-puma {
+	background: linear-gradient(to right,  #35255d 0%,#cb1e44 100%);
+}
+
+.nbc-puma .intro,
+.nbc-puma h1, 
+.nbc-puma h1 a, 
+.nbc-puma p {
+	color: $white;
+}
+
+//----------------------------------//
 
 .the-pie {
-	background: url('/assets/img/bgs/pie.jpg') repeat 0 0;
-	background-size: cover;	
+	background: #FF8600;
+
+	@media all and (min-width: 70em) {
+		background: url('/assets/img/bgs/pienews.jpg') no-repeat #FF8600;	
+		background-position: right -18rem top 50%;
+	}		
 }
+
+.single.the-pie {
+	background-color: #FF8600;
+	background-image: none;	
+}
+
+.the-pie .intro,
+.the-pie h1, 
+.the-pie h1 a, 
+.the-pie p {
+	color: $white;
+}
+
+//----------------------------------//
 
 .fine-and-rare {
-	background: url('/assets/img/bgs/frw.jpg') repeat 0 0;
-	background-size: cover;		
+	background: #000;
+
+	@media all and (min-width: 70em) {
+		background: url('/assets/img/bgs/frw-2.jpg') no-repeat #000;	
+		background-position: right 0rem top 50%;
+	}		
 }
 
-.intro.fine-and-rare {
-	background: url('/assets/img/bgs/frw-light.jpg') repeat 0 0;
-	background-size: cover;		
+.single.fine-and-rare {
+	background: #000;
+	background-image: none;
 }
+
+.fine-and-rare .intro,
+.fine-and-rare h1, 
+.fine-and-rare h1 a, 
+.fine-and-rare p {
+	color: $white;
+}
+
+
+//----------------------------------//
+
 
 .the-holiday-place {
-	background: url('/assets/img/bgs/thp.jpg') repeat 0 0;
-	background-size: cover;		
+	background: #FF295E;	
+
+	@media all and (min-width: 70em) {
+		background: url('/assets/img/bgs/thp-2.jpg') no-repeat #FF295E;	
+		background-position: right -5rem top 100%;	
+	}		
 }
 
-.picturebox {
-	background: url('/assets/img/bgs/pbox-light.jpg') repeat 0 0;
-	background-size: cover;		
+.single.the-holiday-place {
+	background-color: #FF295E;
+	background-image: none;	
 }
+
+.the-holiday-place .intro,
+.the-holiday-place h1, 
+.the-holiday-place h1 a, 
+.the-holiday-place p {
+	color: $white;
+}
+
+//----------------------------------//
+
+
+.picturebox {
+	background: #000;
+
+	@media all and (min-width: 70em) {
+		background: url('/assets/img/bgs/pbox2.jpg') no-repeat #000;	
+		background-position: right -5rem top 60%;
+	}		
+}
+
+.single.picturebox{
+	background-color: #FF295E;
+	background-image: none;	
+}
+
+.picturebox .intro,
+.picturebox h1, 
+.picturebox h1 a, 
+.picturebox p {
+	color: $white;
+}
+
+//----------------------------------//
+
+
+.side-projects {
+	background: $brand-blue;
+}
+
+.side-projects .intro,
+.side-projects h1, 
+.side-projects h1 a, 
+.side-projects p {
+	color: $white;
+}
+
+
+
+
+//----------------------------------//
+
+
+
+
 
 .living-english {
 	background: url('/assets/img/bgs/le.jpg') repeat 0 0;
@@ -71,9 +236,4 @@
 .email-design {
 	background: url('/assets/img/bgs/bg.png') repeat 0 0;
 	background-size: contain;
-}
-
-.side-projects {
-	background: url('/assets/img/bgs/side-projects.jpg') no-repeat 0 0;
-	background-size: cover;		
 }
