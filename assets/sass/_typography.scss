@@ -1,16 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
-@import url(http://fonts.googleapis.com/css?family=Abril+Fatface:400);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Chivo:400,400italic,900);
+@import url(https://fonts.googleapis.com/css?family=Neuton:400,400italic,700);
 
-$font-serif-bold: "Playfair Display", serif; 
-$font-serif-extrabold: "Abril Fatface", serif; 
-$font-serif-regular: "Playfair Display", serif;
-$font-serif-emphasis: "Playfair Display", serif;
+$font-serif-bold: "Neuton", serif; 
+$font-serif-extrabold: "Neuton", serif;
+$font-serif-regular: "Neuton", serif;
+$font-serif-emphasis: "Neuton", serif;
 $font-sans-bold: "Source Sans Pro", sans-serif;
 $font-sans-regular: "Source Sans Pro", sans-serif;
 $font-sans-emphasis: "Source Sans Pro", sans-serif;
 $font-sans-condensed: "Oswald", sans-serif;
+
 
 body {
 	color: $knockout;
@@ -21,7 +22,7 @@ h1 {
 	font-family: $font-serif-bold;
 	font-weight:900; 
 	font-style:normal;	
-	letter-spacing: -0.025em;
+	letter-spacing: -0.015em;
 	// color: $brand-blue;
 }
 
@@ -56,7 +57,7 @@ p, li {
 	font-family: $font-sans-regular;
 	font-weight: 400;
 	@include font-size(8);
-	@include line-height(11);
+	@include line-height(12);
 }
 
 mark {
@@ -95,7 +96,7 @@ mark {
 		font-family: $font-sans-regular;
 		font-weight: 400;
 		@include font-size(9);
-		@include line-height(12);
+		@include line-height(13);
 	}
 
 	.blog .post p:first-of-type {

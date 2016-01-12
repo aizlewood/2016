@@ -1,6 +1,6 @@
 	.infoz {
 		clear: both;
-		overflow: auto;
+		overflow: hidden;
 	}
 
 	.tidbit {
@@ -10,15 +10,15 @@
 		text-align: left;
 		padding: 0.3em 1em;
 		border-bottom: 1px solid rgba(55,55,55,0.08);
-		font-family: $font-serif-bold;		
-		font-weight: 900;
+		font-family: $font-sans-condensed;		
+		font-weight: 400;
 		font-size: 2em;
 		color: $brand-blue;
 		text-shadow: 0px 1px 1px rgba(150, 150, 150, 0.8);			
 	}
 
 	.abril {
-		font-family: $font-serif-extrabold;
+		font-family: $font-sans-condensed;
 		font-weight: 400;
 		font-style: normal;	
 	}	

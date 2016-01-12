@@ -12,6 +12,14 @@
 
 .project-meta ul li {
 	list-style-type: none;
+	font-family: $font-sans-condensed;
+	font-weight: 400;
+	color: $knockout;
+}
+
+.project-meta ul li b {
+	color: $dark-grey;
+	font-weight: 400;
 }
 
 @media all and (min-width: 60em) {
