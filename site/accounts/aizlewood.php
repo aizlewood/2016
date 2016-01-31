@@ -7,11 +7,11 @@ password: >
 language: en
 role: admin
 history:
+  - articles/when-agile-s-not-creative
   - about
+  - projects/penguin-random-house
   - >
     articles/style-guide-podcast-with-jeremy-keith
   - articles/strava-meets-mariokart
-  - articles/Doing-the-SDW-100
-  - articles/on-pattern-portfolios
 firstname: Jon
 lastname: Aizlewood

@@ -1,3 +1,25 @@
+.penguin-random-house {
+	background: #FF6300;
+
+	@media all and (min-width: 70em) {
+		background: url('/assets/img/bgs/prh.jpg') no-repeat #FF6300;
+		background-position: right 0rem top 50%;
+	}	
+}
+
+.single.penguin-random-house {
+	background-color: none;
+	background-image: none;	
+	color: $white;
+}
+
+.penguin-random-house .intro,
+.penguin-random-househ1, 
+.penguin-random-house h1 a, 
+.penguin-random-house p {
+	color: $white;
+}
+
 .bison-growler-club {
 	background: #0097B6;
 
@@ -174,7 +196,7 @@
 }
 
 .single.picturebox{
-	background-color: #FF295E;
+	background-color: #000;
 	background-image: none;	
 }
 

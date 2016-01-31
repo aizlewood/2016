@@ -39,5 +39,19 @@ headroom.init();
   ga('send', 'pageview');
 
 </script>
+<script type="text/javascript">
+  var __rodeo_config = {
+    'clientId': 'a1df01acea8ffacc8839fb8e0c428bf1216429c4b0e54cc2c1bee53d5379f468',
+    'theme': 'slack'
+  };
+
+  var d = document.getElementsByTagName('head')[0],
+  s = document.createElement('script');
+
+  s.type = 'text/javascript';
+  s.src = '//cdn.emoji.rodeo/dist.js';
+  d.appendChild(s);
+</script>
+
 </body>
 </html>

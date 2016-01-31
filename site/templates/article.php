@@ -15,6 +15,9 @@
   <article class="post">
     <?php echo kirbytext($page->text()) ?>
   </article>
+
+  <div data-rodeo></div>
+  
 </main>
   
 <?php snippet('footer-blog') ?>  

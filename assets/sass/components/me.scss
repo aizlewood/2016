@@ -1,0 +1,82 @@
+.me {
+	background-color: $brand-fuchsia;
+	background: #8A2076; /* Old browsers */
+	background: -moz-linear-gradient(top,  #5E025B 0%, #3C023A 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #5E025B 0%,#3C023A 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #5E025B 0%,#3C023A 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	color: $white;
+	display: flex;		
+	align-items: center;
+	justify-content: flex-start;
+	// flex-direction: column;
+	height: 30vh;
+}
+
+.me h1 {
+	align-items: center;
+	justify-content: center;	
+	letter-spacing: -0.07em;
+	line-height: 0.8;
+	padding: 1vw;
+	text-align: center;
+}
+
+.me h2 {
+	font-family: $font-serif-regular;
+	font-weight: 400;
+	text-transform: none;
+	text-align: center;
+	width: 100%;
+	letter-spacing: -0.03em;
+	display: block;
+	color: $white;
+	position: absolute;
+	top: 46%;
+	left: 0%;
+}
+
+.shadow {
+	color: #3C023A;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+// .shell {
+// 	position:relative;
+// }
+
+// .verb.js-block, .verb2.js-block { 
+// 	display:inline-block;
+// 	width: 7.5em;
+// 	text-align: center;
+// }
+
+// .verb.js-hide, .verb2.js-hide { 
+// 	display:none;
+// 	opacity:0;
+// }
+
+// .verb, .verb2 { 
+// 	display:inline-block;
+// 	visibility:visible;
+// 	text-align: center;
+// 	width: 7.5em;
+// }
+
+@media all and (min-width: 70em) {
+	h1.shadow {
+		font-size: 200px;
+		font-size: 14vw;
+	}
+
+	.me h2 {
+		font-size: 2vw;
+	}	
+
+	.me {
+		height: 90vh;
+	}
+
+}	
+

@@ -33,7 +33,8 @@
 
 .blurb {
 	line-height: 1.4em;
-	font-style: italic;
+	font-size: 1.5em;
+	// font-style: italic;
 	margin-left: 1%;
 }
 
@@ -90,7 +91,7 @@
 }
 
 .intro p {
-	margin-top: 1em;
+	margin-top: 0.2em;
 	line-height: 1.3;
 }
 
@@ -130,8 +131,6 @@
 	.intro.single h1 {
 		// margin-top: 5vh;
 	}
-
-
 
 	.blurb {
 		max-width: 20em;	

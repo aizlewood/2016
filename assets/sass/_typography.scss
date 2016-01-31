@@ -1,17 +1,167 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700);
-@import url(https://fonts.googleapis.com/css?family=Chivo:400,400italic,900);
-@import url(https://fonts.googleapis.com/css?family=Neuton:400,400italic,700);
+@font-face {
+    font-family: 'Overpass';
+    src: url('/assets/fonts/overpass/Overpass-Light.eot');
+    src: url('/assets/fonts/overpass/Overpass-Light.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/overpass/Overpass-Light.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Overpass';
+    src: url('/assets/fonts/overpass/Overpass-Light-Italic.eot');
+    src: url('/assets/fonts/overpass/Overpass-Light-Italic.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/overpass/Overpass-Light-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Overpass';
+    src: url('/assets/fonts/overpass/Overpass-Regular.eot');
+    src: url('/assets/fonts/overpass/Overpass-Regular?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/overpass/Overpass-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Overpass';
+    src: url('/assets/fonts/overpass/Overpass-Italic.eot');
+    src: url('/assets/fonts/overpass/Overpass-Italic?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/overpass/Overpass-Italic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Overpass';
+    src: url('/assets/fonts/overpass/Overpass-Bold.eot');
+    src: url('/assets/fonts/overpass/Overpass-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/overpass/Overpass-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/assets/fonts/oswald/oswald-regular-webfont.eot');
+    src: url('/assets/fonts/oswald/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/oswald/oswald-regular-webfont.woff') format('woff'),
+         url('/assets/fonts/oswald/oswald-regular-webfont.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/assets/fonts/oswald/oswald-bold-webfont.eot');
+    src: url('/assets/fonts/oswald/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/oswald/oswald-bold-webfont.woff') format('woff'),
+         url('/assets/fonts/oswald/oswald-bold-webfont.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuton';
+    src: url('/assets/fonts/neuton/neuton-bold-webfont.eot');
+    src: url('/assets/fonts/neuton/neuton-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/neuton/neuton-bold-webfont.woff') format('woff'),
+         url('/assets/fonts/neuton/neuton-bold-webfont.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuton';
+    src: url('/assets/fonts/neuton/neuton-regular-webfont.eot');
+    src: url('/assets/fonts/neuton/neuton-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/neuton/neuton-regular-webfont.woff') format('woff'),
+         url('/assets/fonts/neuton/neuton-regular-webfont.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuton';
+    src: url('/assets/fonts/neuton/neuton-italic-webfont.eot');
+    src: url('/assets/fonts/neuton/neuton-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/neuton/neuton-italic-webfont.woff') format('woff'),
+         url('/assets/fonts/neuton/neuton-italic-webfont.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+.font-overpass-light {
+    font-family: Overpass, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.font-overpass-light-italic {
+    font-family: Overpass, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.font-overpass-regular {
+    font-family: Overpass, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.font-overpass-regular-italic {
+    font-family: Overpass, Tahoma, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.font-overpass-bold {
+    font-family: Overpass, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.font-oswald-regular {
+    font-family: Oswald, Impact, sans-serif;
+    font-weight: 400;
+}
+
+.font-oswald-bold {
+    font-family: Oswald, Impact, sans-serif;
+    font-weight: 700;
+}
+
+.font-neuton-bold {
+    font-family: Neuton, Georgia, serif;
+    font-weight: 700;
+}
+
+.font-neuton-regular {
+    font-family: Neuton, Georgia, serif;
+    font-weight: 400;
+}
+
+.font-neuton-italic {
+    font-family: Neuton, Georgia, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+// @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+// @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700);
+// @import url(https://fonts.googleapis.com/css?family=Chivo:400,400italic,900);
+// @import url(https://fonts.googleapis.com/css?family=Neuton:400,400italic,700);
+// @import url(https://fonts.googleapis.com/css?family=Leckerli+One);
 
 $font-serif-bold: "Neuton", serif; 
 $font-serif-extrabold: "Neuton", serif;
 $font-serif-regular: "Neuton", serif;
 $font-serif-emphasis: "Neuton", serif;
-$font-sans-bold: "Source Sans Pro", sans-serif;
-$font-sans-regular: "Source Sans Pro", sans-serif;
-$font-sans-emphasis: "Source Sans Pro", sans-serif;
+$font-sans-bold: "Overpass", sans-serif;
+$font-sans-regular: "Overpass", sans-serif;
+$font-sans-emphasis: "Overpass", sans-serif;
 $font-sans-condensed: "Oswald", sans-serif;
-
 
 body {
 	color: $knockout;
@@ -19,10 +169,10 @@ body {
 
 h1 {
 	line-height: 100%; 
-	font-family: $font-serif-bold;
+	font-family: $font-sans-bold;
 	font-weight:900; 
 	font-style:normal;	
-	letter-spacing: -0.015em;
+	letter-spacing: -0.055em;
 	// color: $brand-blue;
 }
 
@@ -89,6 +239,7 @@ mark {
 	text-transform: uppercase;
 	font-size: 0.7em;
 	color: $dark-grey;
+	line-height: 4.5;
 }
 
 @media all and (min-width: 40em) {

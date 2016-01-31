@@ -15,7 +15,7 @@
             <div class="proposition">
               <p class="explanation condensed"><?php echo $page->lede()->html() ?></p>
               <h1 class="animated fadeIn"><?php echo $page->title()->html() ?></h1>
-              <p class="blurb"><?php echo $page->summary()->html() ?></p>
+              <p class="blurb font-neuton-regular"><?php echo $page->summary()->html() ?></p>
             </div>
 
 <?php endforeach ?>

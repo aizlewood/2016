@@ -7,6 +7,7 @@
 
 	.single .proposition {
 		margin-left: 5vw;
+		margin-bottom: 3vh;
 	}
 
 	.single h1 {
@@ -34,18 +35,24 @@
 		height: 5px;
 	}
 
-@media all and (min-width: 40em) {
+
+@media all and (min-width: 30em) {
+	.single h1 {
+		font-size: 4em;
+	}	
+}	
+
+@media all and (min-width: 70em) {
 
 	.single .proposition {
 		height: 35vh;
-		margin-top: 12vh;
-		margin-left: 0;
-		width: 50vw;
+		margin: 7vh 0 10vh 0;
+		width: 60vw;
 	}
 
 	.single h1 {
 		padding: 0 0 0.1em 0;		
-		font-size: 6vw;
+		font-size: 5vw;
 	}
 
 	.single .explanation {
