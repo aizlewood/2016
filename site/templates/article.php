@@ -14,10 +14,12 @@
 
   <article class="post">
     <?php echo kirbytext($page->text()) ?>
+    <br><br>
+
+  <div data-rodeo></div>  
+  
   </article>
 
-  <div data-rodeo></div>
-  
 </main>
   
 <?php snippet('footer-blog') ?>  
