@@ -810,12 +810,6 @@ blockquote p cite {
   font-size: 80%;
   display: block; }
 
-body {
-  -ms-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
-  -o-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
-  -webkit-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
-  font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1; }
-
 a:link {
   text-decoration: none;
   padding: 0 2px;
@@ -1871,7 +1865,7 @@ a.logo:hover {
     height: 100%;
     margin: 0 auto;
     float: none;
-    padding: 0.8em 0.5em 0.5em 2.3em; } }
+    padding: 0.8em 0.5em 0.5em 1.8em; } }
 
 .main {
   overflow: hidden;
