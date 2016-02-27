@@ -7,11 +7,11 @@ password: >
 language: en
 role: admin
 history:
+  - articles/is-marketing-being-reborn-as-cx
   - articles/when-agile-s-not-creative
   - about
   - projects/penguin-random-house
   - >
     articles/style-guide-podcast-with-jeremy-keith
-  - articles/strava-meets-mariokart
 firstname: Jon
 lastname: Aizlewood
