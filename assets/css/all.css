@@ -839,12 +839,14 @@ article a {
 
 article a:hover, article a:focus {
   background-image: -webkit-linear-gradient(bottom, transparent, transparent 2px, #0F182F 2px, #0F182F 3px, transparent 3px);
-  background-image: linear-gradient(to top, transparent, transparent 2px, #0F182F 2px, #0F182F 3px, transparent 3px); }
+  background-image: linear-gradient(to top, transparent, transparent 2px, #0F182F 2px, #0F182F 3px, transparent 3px);
+  background: #FEF9CF; }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   article a:hover, article a:focus {
     background-image: -webkit-linear-gradient(bottom, transparent, transparent 2px, #0F182F 2px, #0F182F 2.5px, transparent 2.5px);
-    background-image: linear-gradient(to top, transparent, transparent 2px, #0F182F 2px, #0F182F 2.5px, transparent 2.5px); } }
+    background-image: linear-gradient(to top, transparent, transparent 2px, #0F182F 2px, #0F182F 2.5px, transparent 2.5px);
+    background: #FEF9CF; } }
 
 a:visited {
   color: #000; }

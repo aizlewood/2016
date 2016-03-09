@@ -8,10 +8,11 @@ language: en
 role: admin
 history:
   - >
+    articles/visual-inventories-for-agile-design
+  - >
     articles/when-loading-fast-means-learning-fast
   - articles/is-marketing-being-reborn-as-cx
   - articles/when-agile-s-not-creative
   - about
-  - projects/penguin-random-house
 firstname: Jon
 lastname: Aizlewood
