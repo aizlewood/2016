@@ -7,12 +7,13 @@ password: >
 language: en
 role: admin
 history:
+  - >
+    articles/design-systems-dont-start-with-components
+  - articles/xx118-strava-made-me-do-it
   - articles/is-the-t-shape-evolving
   - >
     articles/visual-inventories-for-agile-design
   - >
     articles/when-loading-fast-means-learning-fast
-  - articles/is-marketing-being-reborn-as-cx
-  - articles/when-agile-s-not-creative
 firstname: Jon
 lastname: Aizlewood

@@ -1,11 +1,12 @@
 Title: Strava made me do it
-----
-
-date: 2014-11-14
 
 ----
 
-text:
+Date: 2014-11-14
+
+----
+
+Text: 
 
 It's not often - for me anyway - to be quite so fundamentally affected by an app as I have been with Strava.  
 
@@ -30,8 +31,8 @@ Design already is top notch - all done in house
 
 ----
 
-Tags: asides, business, future, Opinions
+Tags: asides,business,future,Opinions
 
 ----
 
-categories: asides,business,future,Opinions
+Author: aizlewood
